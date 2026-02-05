@@ -1,0 +1,602 @@
+{
+  "HomePage": {
+    "hero": {
+      "title": "<highlight>Roop Plastic Surgery Clinique And Infertility Counselling Centre</highlight> Where expert care meets artistry to enhance your natural beauty.",
+      "description": "Personalized treatments in cosmetic surgery, skin, and hair restoration, focused on advanced techniques, safety, and natural-looking results.",
+      "consultButton": "Consult Now",
+      "exploreButton": "Explore Services"
+    },
+    "services": {
+      "title": "What We Offer",
+      "description": "Advanced procedures in cosmetic surgery, skin rejuvenation, and hair restoration, all under one roof.",
+      "viewAll": "View all →",
+      "rhinoplasty": {
+        "title": "Rhinoplasty",
+        "description": "Reshapes nose structure to improve appearance and breathing function."
+      },
+      "cosmetology": {
+        "title": "Cosmetology",
+        "description": "Treatments to improve skin health, brightness, and overall youthful appearance."
+      },
+      "gynecology": {
+        "title": "Gynecology",
+        "description": "Enhances intimate aesthetics and comfort through safe, minimally invasive procedures."
+      },
+      "liposuction": {
+        "title": "Liposuction",
+        "description": "Removes stubborn fat deposits to sculpt and contour body shape."
+      }
+    },
+    "redefining": {
+      "title": "Redefining Beauty, Restoring <highlight>Confidence</highlight>",
+      "description": "At Roop, we combine artistry and advanced medical expertise to help you achieve results that look natural, feel authentic, and enhance your true self.",
+      "consultButton": "Consult Now"
+    },
+    "specialists": {
+      "title": "Meet Our Specialists",
+      "description": "Experienced professionals dedicated to your care and well-being.",
+      "drRaunak": {
+        "name": "Dr. Raunak Shinde",
+        "description": "Board-Certified Plastic and Cosmetic Surgeon with Expertise in Aesthetic Surgery.",
+        "button": "Know more"
+      },
+      "drKavisha": {
+        "name": "Dr. Kavisha Shinde",
+        "description": "Gynecologist and Obstetrician Professional",
+        "button": "Know more"
+      }
+    }
+  },
+  "DoctorsPage": {
+    "drRaunak": {
+      "name": "Dr. Raunak Shinde",
+      "tagline": "Director & Chief Cosmetic Surgeon | M.Ch. Plastic Surgery (PGIMER)",
+      "intro1": "As the Director of Roop Plastic Surgery Clinique and Infertility Counselling Centre in Ujjain, Madhya Pradesh, Dr. Shinde brings over 13 years of surgical expertise in plastic, cosmetic, and reconstructive surgery.",
+      "intro2": "Trained at India's premier institutions including PGIMER Chandigarh, IPGMER Kolkata, and KEM Hospital Mumbai, Dr. Shinde is dedicated to transforming lives through personalized care and exceptional results.",
+      "statementOfPurpose": "\"Transforming lives, one procedure at a time.\"",
+      "statementDescription": "As a board-certified Plastic, Cosmetic, and Reconstructive Surgeon, I specialize in aesthetic surgery and hand surgery, delivering personalized care and great results. With a commitment to ethical practice and a holistic approach to life, while adhering to the highest standards of patient safety, I strive to enhance natural beauty and restore function.",
+      "expertiseTitle": "Expertise in Aesthetic & Cosmetic Surgery",
+      "expertiseDescription": "Dr. Raunak Shinde specializes in advanced procedures spanning facial rejuvenation, body contouring, reconstructive procedures, and hand surgery with natural-looking results.",
+      "rhinoplasty": "Rhinoplasty",
+      "skinSurgery": "Skin Surgery",
+      "liposuction": "Liposuction",
+      "hairTransplant": "Hair Transplant",
+      "otoplasty": "Otoplasty",
+      "tummyTuck": "Tummy Tuck",
+      "peels": "Peels",
+      "breastSurgery": "Breast Reconstruction",
+      "surgicalInterestsTitle": "Surgical Interests & Exposure",
+      "surgicalInterest1": "Trauma Reconstruction – Craniofacial, Hand, Lower Limb, Microvascular Replantations, Free Flaps",
+      "surgicalInterest2": "General Aesthetic Surgery and Facial Aesthetic Surgery",
+      "surgicalInterest3": "Burns – Acute and Post-burn Sequelae",
+      "surgicalInterest4": "Congenital Malformations – Craniofacial, Hand",
+      "surgicalInterest5": "Oncology Reconstruction",
+      "surgicalInterest6": "Peripheral Nerve Injuries & Brachial Plexus Injuries",
+      "trainingTitle": "Advanced Training & Fellowships",
+      "training1": "IAAPS Fellowship in Aesthetic Surgery – Tamira Plastic Surgery Centre, Chennai (2022)",
+      "training2": "Microsurgery Course – Ganga Hospital, Coimbatore (2019)",
+      "training3": "ISAPS India Course – Kolkata (2019)",
+      "training4": "APSI Hand & Upper Extremity Accreditation – Ganga Hospital (2018)",
+      "training5": "AOCMF Craniomaxillofacial Fracture Management – Chandigarh (2016)",
+      "training6": "Advanced Breast & Body Contouring Workshop – Personiks & Cocoona Academy, Hyderabad",
+      "qualificationsTitle": "Qualifications",
+      "qualification1": "IAAPS Recognised Fellowship in Aesthetic Surgery – Tamira Plastic Surgery Centre, Chennai (2022)",
+      "qualification2": "M.Ch. Plastic Surgery – PGIMER, Chandigarh (2016-2018)",
+      "qualification3": "M.S. General Surgery – IPGMER & SSKM Hospital, Kolkata (2012-2015)",
+      "qualification4": "M.B.B.S. – Seth G.S. Medical College & KEM Hospital, Mumbai (2004-2010) with Distinction in Biochemistry, Pharmacology, Ophthalmology",
+      "personalizedCareTitle": "Personalized Care",
+      "personalizedCareDescription": "With over 13 years of surgical expertise, Dr. Shinde combines advanced training with a compassionate approach, ensuring tailored treatments and natural results for every patient while adhering to the highest standards of safety.",
+      "awardsTitle": "Awards & Achievements",
+      "award1": "Best Paper Presentation Award – 14th Annual NZAPSCON, Kasauli, HP (2018)",
+      "award2": "Best Paper Award – 59th Foundation Day, IPGMER, Kolkata (2015)",
+      "award3": "National Level Science Talent Search – AIR 24 (2004)",
+      "award4": "Certificate of Merit – National Biology Olympiad, NSEB (2003-2004)",
+      "associationsTitle": "Professional Associations",
+      "association1": "Association of Plastic Surgeons of India (APSI)",
+      "association2": "Indian Association of Aesthetic Plastic Surgeons (IAAPS)",
+      "association3": "The Association of Surgeons of India (ASI)",
+      "association4": "Indian Medical Association (IMA)",
+      "association5": "Indian Society for Surgery of the Hand (ISSH)",
+      "association6": "Association of Plastic Surgeons of MP & Chattisgarh (APMPCG)",
+      "publicationsTitle": "Publications",
+      "publication1": "\"Free Flap Skin Paddle: A Painless Donor Site In Vivo\" – Indian Journal of Plastic Surgery (2019)",
+      "publication2": "\"Inflammatory Myofibroblastic Tumor Arising in the Pancreatic Head\" – Indian Journal of Surgery (2015)",
+      "publication3": "Research on psychosocial and surgical outcomes of breast reconstruction following mastectomy",
+      "conferencesTitle": "Conferences & Presentations",
+      "conference1": "Invited Faculty – Scar Revision Tips & Tricks – MP-CUTICON (2023)",
+      "conference2": "Invited Paper – FUE for Advanced Male Pattern Baldness – AESURGE (2023)",
+      "conference3": "ISAPS Hands-On Cadaver Course on Facial Aesthetic Surgery, Noida (2023)",
+      "conference4": "The Big Masterclass, Lonavla (2020)",
+      "conference5": "Multiple APSI, ISPNS, and ASI national conferences"
+    },
+    "drKavisha": {
+      "name": "Dr. Kavisha Shinde",
+      "tagline": "Chief Consultant Infertility Specialist | MS Obstetrics & Gynaecology",
+      "intro": "Dedicated to empowering women's health and fertility with over 13 years of surgical experience and 7+ years of expertise in reproductive medicine. Dr. Kavisha is committed to delivering compassionate, evidence-based care to women and couples navigating fertility challenges.",
+      "statementOfPurpose": "\"Dedicated to Empowering Women's Health and Fertility\"",
+      "statementDescription": "With a strong foundation in gynecological surgery and a passion for staying at the forefront of advancements in reproductive technology, my goal is to provide personalized, protocol-driven treatment that honors the unique needs and aspirations of each patient. I strive to create a supportive, inclusive environment where patients feel informed, empowered, and hopeful.",
+      "expertiseTitle": "Expertise in Gynecology & Fertility",
+      "expertiseDescription": "Specialized in infertility treatment, ART procedures, and gynecological care with a compassionate, patient-centered approach.",
+      "gynecology": "Gynecology",
+      "prp": "PRP",
+      "infertilityCounselling": "Infertility Counselling",
+      "ivfArt": "IVF & ART",
+      "laparoscopy": "Laparoscopy",
+      "experienceTitle": "Experience",
+      "experience1": "Registrar – CK Birla Hospital, CMRI, Kolkata (2015)",
+      "experience2": "Senior Resident – PGIMER, Chandigarh (2016)",
+      "experience3": "Gynaecologist – National Health Mission, U.T., Chandigarh (2016-2017)",
+      "experience4": "Senior Resident – Govt. Medical College & Hospital, Chandigarh (2018)",
+      "qualificationsTitle": "Qualifications",
+      "qualification1": "D.C.R. Diploma in Clinical ART – Amity University & Indian Fertility Society, Wing's Hospital, Ahmedabad (2020-2021)",
+      "qualification2": "MS (Obstetrics & Gynaecology) – MGM Medical College, Indore (2012-2015)",
+      "qualification3": "MBBS – MGM Medical College, Indore (2005-2011) with Distinction in Pediatrics",
+      "qualification4": "Thesis: Comparative study of induction of labour with mechanical dilatation vs misoprostol",
+      "coursesTitle": "Courses and Fellowships",
+      "course1": "Fellowship in Infertility (DCR) – Amity University & IFS, Wing's Hospital, Ahmedabad (under Dr. Jayesh Amin)",
+      "course2": "Laparoscopy Training – Marigold Women's Hospital, Ahmedabad (under Dr. Devang Kanugo)",
+      "course3": "FOGSI Ultrasound Training – Rajni Fetal Medicine Center, Ahmedabad (under Dr. Jayprakash Shah)",
+      "course4": "Infertility Training – Institute of Reproductive Medicine, Kolkata (under Dr. B.N. Chakravarty)",
+      "course5": "Post Graduate Skill Course in OBGY – SAIMS Laparoscopy Academy, Indore",
+      "course6": "BMJ Learning Program – Endocrine & Diabetic Problems in Pregnancy",
+      "conferencesTitle": "Conferences & Presentations",
+      "conference1": "E-Poster Presentation – Role of Lymphocyte Immunization Therapy in RIF/RPL – Fertivision (2020)",
+      "conference2": "IMSCON, Indore (2015)",
+      "conference3": "Dissertation: Comparison of clinical outcomes of single vs double blastocyst transfer in ART",
+      "associationsTitle": "Professional Affiliations",
+      "association1": "Federation of Obstetric and Gynaecological Societies of India (FOGSI)",
+      "association2": "Indian Fertility Society (IFS)",
+      "specialInterestsTitle": "Special Interests",
+      "specialInterest1": "Assisted Reproductive Technology (ART)",
+      "specialInterest2": "Recurrent Pregnancy Loss Management",
+      "specialInterest3": "Laparoscopic Gynecological Surgery",
+      "specialInterest4": "High-Risk Pregnancy Care"
+    }
+  },
+  "GalleryPage": {
+    "banner": {
+      "title": "Gallery",
+      "description": "A glimpse into our clinic, our team, and patient transformations."
+    },
+    "carousel": {
+      "title": "Clinic Glimpses",
+      "description": "Modern facilities and calming spaces built for your well-being."
+    },
+    "imageAlt": {
+      "gallery1": "Gallery 1",
+      "gallery2": "Gallery 2",
+      "gallery3": "Gallery 3",
+      "gallery4": "Gallery 4",
+      "gallery5": "Gallery 5",
+      "gallery6": "Gallery 6",
+      "gallery7": "Gallery 7",
+      "clinicInterior": "Clinic interior"
+    }
+  },
+  "ContactPage": {
+    "banner": {
+      "title": "Contact Us",
+      "description": "Schedule an appointment with our specialists today.",
+      "bookButton": "Book Appointment"
+    },
+    "telephoneSupport": {
+      "title": "Telephone Support",
+      "phone": "7024411704 | 0734-3506016",
+      "availability": "Available on call: Mon – Sat, 9:00 AM – 7:00 PM"
+    },
+    "emailAssistance": {
+      "title": "Email Assistance",
+      "email": "roopclinique3@gmail.com",
+      "description": "Write to us anytime"
+    },
+    "stayInTouch": {
+      "title": "Stay in touch, hassle free",
+      "description": "Reach us easily via call, email, or Instagram — we're here to help you anytime.",
+      "address": "48, Subash Nagar, Indore Road, Near Do Talab, Ujjain MP  (for surgeries)",
+      "addressSurgery": "3 Phulwani Plaza, Opposite Iskcon Temple 286, Mahashweta Nagar, Ujjain MP",
+      "phone": "7024411704 | 0734-3506016",
+      "email": "roopclinique3@gmail.com",
+      "instagram": "@roop_cosmetic_surgery_clinic"
+    }
+  },
+  "ServicesPage": {
+    "banner": {
+      "title": "Our Services",
+      "description": "Specialized Expertise in Aesthetic and Reconstructive Procedures.",
+      "bookButton": "Book Appointment"
+    },
+    "aestheticTreatments": {
+      "title": "Aesthetic Treatments",
+      "viewAll": "View all →",
+      "skin": {
+        "title": "Skin",
+        "description": "Advanced skin treatments to rejuvenate, brighten, and restore youthful radiance."
+      },
+      "hairLoss": {
+        "title": "Hair Loss",
+        "description": "Effective solutions to control hair loss and promote healthy regrowth."
+      },
+      "face": {
+        "title": "Face",
+        "description": "Specialized procedures to refine features and enhance natural facial beauty."
+      },
+      "weightLoss": {
+        "title": "Weight loss",
+        "description": "Safe methods to reduce excess fat and achieve healthy body balance naturally."
+      },
+      "maleBreast": {
+        "title": "Male Breast",
+        "description": "Treatments to correct enlarged male breasts and restore chest shape."
+      },
+      "abdomen": {
+        "title": "Abdomen",
+        "description": "Procedures to flatten, tone, and contour the abdominal area effectively."
+      },
+      "infertilityCounselling": {
+        "title": "Infertility Counselling",
+        "description": "Supportive guidance for couples with fertility concerns."
+      }
+    },
+    "nonSurgical": {
+      "title": "Non Surgical",
+      "viewAll": "View all →",
+      "gynecology": {
+        "title": "Gynecology",
+        "description": "Enhances intimate aesthetics and comfort through safe, minimally invasive procedures."
+      },
+      "cosmetology": {
+        "title": "Cosmetology",
+        "description": "Treatments to improve skin health, brightness, and overall youthful appearance."
+      },
+      "microneedling": {
+        "title": "Microneedling",
+        "description": "Stimulates collagen production for smoother, firmer, and youthful-looking skin."
+      },
+      "prp": {
+        "title": "PRP",
+        "description": "Uses patient's plasma to restore skin glow and promote hair regrowth."
+      },
+      "peels": {
+        "title": "Peels",
+        "description": "Removes damaged layers to reveal fresher, brighter, healthier skin."
+      },
+      "botox": {
+        "title": "Botox for Wrinkles",
+        "description": "Smooths fine lines and wrinkles for youthful, natural facial appearance."
+      },
+      "threads": {
+        "title": "Threads for Facelift",
+        "description": "Lifts sagging skin, enhancing firmness and natural facial contours."
+      },
+      "faceRejuvenation": {
+        "title": "Face Rejuvenation",
+        "description": "Comprehensive treatments to refresh, restore, and revitalize facial skin."
+      }
+    },
+    "surgical": {
+      "title": "Surgical",
+      "viewAll": "View all →",
+      "hairTransplant": {
+        "title": "Hair Transplant",
+        "description": "Restores natural hair growth by transplanting healthy follicles to thinning areas."
+      },
+      "liposuction": {
+        "title": "Liposuction",
+        "description": "Removes stubborn fat deposits to sculpt and contour body shape."
+      },
+      "fatGrafting": {
+        "title": "Fat Grafting",
+        "description": "Transfers body fat to enhance volume and improve facial features."
+      },
+      "tummyTuck": {
+        "title": "Tummy Tuck",
+        "description": "Tightens abdominal muscles and removes excess skin for flatter stomach."
+      },
+      "gynecomastia": {
+        "title": "Gynecomastia",
+        "description": "Corrects enlarged male breasts for a firm, masculine chest."
+      },
+      "rhinoplasty": {
+        "title": "Rhinoplasty",
+        "description": "Reshapes nose structure to improve appearance and breathing function."
+      },
+      "otoplasty": {
+        "title": "Otoplasty",
+        "description": "Corrects ear shape or protrusion for natural, balanced appearance."
+      }
+    },
+    "laserTreatments": {
+      "title": "Laser Treatments",
+      "viewAll": "View all →",
+      "mnrfCelina": {
+        "title": "MNRF Celina",
+        "description": "Advanced radiofrequency microneedling for tighter, smoother, youthful-looking skin."
+      },
+      "tattooRemoval": {
+        "title": "Tattoo removal",
+        "description": "Safely fades or erases unwanted tattoos with advanced laser technology."
+      },
+      "laserHairReduction": {
+        "title": "Laser hair reduction",
+        "description": "Long-lasting solution to reduce unwanted hair and smooth skin."
+      },
+      "hifu": {
+        "title": "HIFU",
+        "description": "Non-invasive ultrasound treatment to tighten skin and improve facial contours."
+      },
+      "hydrafacial": {
+        "title": "Hydrafacial",
+        "description": "Deep cleansing facial that hydrates, exfoliates, and restores radiant glow."
+      }
+    }
+  },
+  "Navigation": {
+    "home": "Home",
+    "services": "Services",
+    "doctors": "Doctors",
+    "gallery": "Gallery",
+    "contact": "Contact Us",
+    "Infertility-Counselling": "Infertility Counselling"
+  },
+  "Footer": {
+    "quickNavigation": {
+      "title": "Quick Navigation",
+      "home": "Home",
+      "services": "Services",
+      "doctors": "Doctors",
+      "contact": "Contact Us",
+      "booking": "Appointment Booking",
+      "Infertility-Counselling": "Infertility Counselling"
+
+    },
+    "legal": {
+      "title": "Legal & Policy",
+      "privacy": "Privacy Policy",
+      "terms": "Terms & Conditions",
+      "disclaimer": "Disclaimer"
+    },
+    "contactUs": {
+      "title": "Contact Us",
+      "address1Label": "Roop plastic surgery clinique and infertility counselling centre:",
+      "address1": "No 3 Phulwani Plaza, 286 Mahashweta Nagar, Opposite Iskcon temple, Ujjain, MP, INDIA - 456010",
+      "address2Label": "Shinde Nursing and Maternity Home:",
+      "address2": "48 Subhash Nagar, Opposite do talaab, Indore Road, Ujjain, MP, 456010",
+      "phone": "7024411704 | 0734-3506016",
+      "email": "roopclinique3@gmail.com",
+      "instagram": "@roop_cosmetic_surgery_clinic"
+    }
+  },
+  "PrivacyPolicyPage": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: January 2026",
+    "introTitle": "Introduction",
+    "introContent": "At Roop Clinique, we are committed to protecting your privacy and ensuring the security of your personal information. This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website or use our services.",
+    "infoCollectTitle": "Information We Collect",
+    "infoCollectContent": "We may collect the following types of personal information:",
+    "infoCollect1": "Personal identification information (name, email address, phone number)",
+    "infoCollect2": "Medical history and health information relevant to your treatment",
+    "infoCollect3": "Appointment and consultation records",
+    "infoCollect4": "Payment and billing information",
+    "useInfoTitle": "How We Use Your Information",
+    "useInfoContent": "We use the information we collect for the following purposes:",
+    "useInfo1": "To provide and improve our medical and cosmetic services",
+    "useInfo2": "To schedule appointments and communicate with you about your care",
+    "useInfo3": "To process payments and maintain billing records",
+    "useInfo4": "To comply with legal obligations and medical record-keeping requirements",
+    "dataSecurityTitle": "Data Security",
+    "dataSecurityContent": "We implement appropriate technical and organizational measures to protect your personal information against unauthorized access, alteration, disclosure, or destruction. All medical records are stored securely in compliance with applicable healthcare regulations.",
+    "thirdPartyTitle": "Third-Party Disclosure",
+    "thirdPartyContent": "We do not sell, trade, or otherwise transfer your personal information to outside parties except as required by law or with your explicit consent. We may share information with trusted third parties who assist us in operating our clinic, provided they agree to keep this information confidential.",
+    "yourRightsTitle": "Your Rights",
+    "yourRightsContent": "You have the right to:",
+    "yourRights1": "Access and review your personal information",
+    "yourRights2": "Request correction of inaccurate information",
+    "yourRights3": "Request deletion of your data (subject to legal retention requirements)",
+    "contactTitle": "Contact Us",
+    "contactContent": "If you have any questions about this Privacy Policy or our data practices, please contact us at roopclinique3@gmail.com or call us at 7024411704."
+  },
+  "TermsConditionsPage": {
+    "title": "Terms & Conditions",
+    "lastUpdated": "Last updated: January 2026",
+    "introTitle": "Introduction",
+    "introContent": "Welcome to Roop Clinique. By accessing our website or using our services, you agree to be bound by these Terms and Conditions. Please read them carefully before proceeding.",
+    "useServicesTitle": "Use of Services",
+    "useServicesContent": "By using our services, you agree to:",
+    "useServices1": "Provide accurate and complete information during registration and consultations",
+    "useServices2": "Follow pre-operative and post-operative instructions provided by our medical staff",
+    "useServices3": "Not use our services for any unlawful purpose or in violation of any applicable regulations",
+    "medicalConsultTitle": "Medical Consultations",
+    "medicalConsultContent": "All medical consultations are provided by qualified healthcare professionals. The information provided during consultations is based on your disclosed medical history and examination. Final treatment decisions are made collaboratively between you and your treating physician.",
+    "appointmentsTitle": "Appointments & Cancellations",
+    "appointmentsContent": "We value your time and ours. Please adhere to the following appointment policies:",
+    "appointments1": "Appointments should be scheduled in advance via phone or our booking system",
+    "appointments2": "Cancellations should be made at least 24 hours before the scheduled appointment",
+    "appointments3": "Repeated no-shows may result in a booking deposit requirement for future appointments",
+    "paymentTitle": "Payment Terms",
+    "paymentContent": "Payment is due at the time of service unless otherwise arranged. We accept various payment methods including cash, credit/debit cards, and select digital payment platforms. Detailed cost estimates will be provided before any procedure.",
+    "intellectualPropertyTitle": "Intellectual Property",
+    "intellectualPropertyContent": "All content on this website, including text, graphics, logos, images, and software, is the property of Roop Clinique and is protected by intellectual property laws. You may not reproduce, distribute, or use any content without our express written permission.",
+    "liabilityTitle": "Limitation of Liability",
+    "liabilityContent": "While we strive to provide the best possible care, medical procedures carry inherent risks. Roop Clinique and its staff shall not be held liable for outcomes that vary from expectations, complications arising from non-disclosure of medical history, or failure to follow post-operative instructions.",
+    "governingLawTitle": "Governing Law",
+    "governingLawContent": "These Terms and Conditions are governed by and construed in accordance with the laws of India. Any disputes arising from these terms shall be subject to the exclusive jurisdiction of the courts in Ujjain, Madhya Pradesh.",
+    "contactTitle": "Contact Us",
+    "contactContent": "If you have any questions about these Terms and Conditions, please contact us at roopclinique3@gmail.com or call us at 7024411704."
+  },
+  "DisclaimerPage": {
+    "title": "Disclaimer",
+    "lastUpdated": "Last updated: January 2026",
+    "generalTitle": "General Disclaimer",
+    "generalContent": "The information provided on this website is for general informational purposes only. While we strive to keep the information accurate and up-to-date, Roop Clinique makes no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability, or availability of the information contained on the website.",
+    "medicalTitle": "Medical Disclaimer",
+    "medicalContent": "The content on this website is not intended to be a substitute for professional medical advice, diagnosis, or treatment. Always seek the advice of your physician or other qualified health provider with any questions you may have regarding a medical condition.",
+    "medical1": "Never disregard professional medical advice or delay in seeking it because of something you have read on this website",
+    "medical2": "The website does not recommend or endorse any specific tests, physicians, procedures, opinions, or other information",
+    "medical3": "Reliance on any information provided by this website is solely at your own risk",
+    "resultsTitle": "Results Disclaimer",
+    "resultsContent": "Individual results from cosmetic and plastic surgery procedures vary significantly from person to person. Results depend on multiple factors including but not limited to individual anatomy, skin quality, healing capacity, lifestyle factors, and adherence to post-operative care instructions. No guarantee of specific results can be made.",
+    "photosTitle": "Before & After Photos & Patient Images",
+    "photosContent": "All photographs of patients displayed on this website have been taken only after obtaining explicit written consent from the patient for record keeping and publication purposes. Patient identity is never divulged, and all identifying features are protected or obscured where necessary. These images are used solely for educational and informational purposes to demonstrate possible outcomes of procedures. Individual results will vary significantly based on personal factors, and these photos should not be considered a guarantee of similar results.",
+    "linksTitle": "Third-Party Links",
+    "linksContent": "This website may contain links to external websites that are not provided or maintained by Roop Clinique. Please note that we do not guarantee the accuracy, relevance, timeliness, or completeness of any information on these external websites.",
+    "noGuaranteeTitle": "No Guarantee",
+    "noGuaranteeContent": "While our team of qualified surgeons and medical professionals are highly skilled and experienced, no medical procedure is without risk. We do not guarantee any specific outcome or result. All procedures and treatments carry potential risks and complications which will be discussed during your consultation.",
+    "changesTitle": "Changes to This Disclaimer",
+    "changesContent": "We reserve the right to modify or replace this Disclaimer at any time. Changes will be effective immediately upon posting on this website. Your continued use of the website after any changes indicates your acceptance of the modified Disclaimer.",
+    "contactTitle": "Contact Us",
+    "contactContent": "If you have any questions about this Disclaimer, please contact us at roopclinique3@gmail.com or call us at 7024411704."
+  },  
+  "InfertilityPage": {
+    "hero": {
+      "title": "Roop Plastic Surgery Clinique And Infertility Counselling Centre",
+      "subtitle": "Where Compassion Meets Expertise, and Hope Meets Reality!",
+      "description": "Guided by Dr. Kavisha, a luminary in reproductive medicine with over a decade of experience, bringing unparalleled expertise and unwavering commitment.",
+      "bookButton": "Book Consultation"
+    },
+    "understanding": {
+      "title": "Understanding Infertility",
+      "description": "A complex interplay of physical, emotional, and psychological factors affecting millions worldwide",
+      "enigmaTitle": "The Enigma of Infertility",
+      "enigmaDesc": "Primary and secondary infertility are distinct yet equally challenging conditions that we address with precision and personalized care.",
+      "culpritsTitle": "Modern-Day Factors",
+      "culpritsDesc": "From lifestyle choices to underlying medical conditions, we explore all causes comprehensively, leaving no stone unturned.",
+      "causesTitle": "Common Causes of Infertility",
+      "femaleFactor": "Female Factors (40%)",
+      "maleFactor": "Male Factors (40%)",
+      "combinedFactor": "Combined/Unknown (20%)"
+    },
+    "treatments": {
+      "title": "Treatment Modalities",
+      "subtitle": "A Tailored Approach to Your Unique Journey",
+      "iui": {
+        "name": "IUI",
+        "fullName": "Intrauterine Insemination",
+        "description": "A gentle procedure where prepared sperm is inserted directly into the uterus, increasing chances of fertilization.",
+        "successRate": "Success Rate: 15-20% per cycle",
+        "procedureTitle": "Procedure Steps:",
+        "step1": "Semen sample collected and prepared",
+        "step2": "Healthy sperm isolated through washing",
+        "step3": "Inserted via thin catheter during ovulation",
+        "step4": "Performed 24-36 hours after ovulation trigger",
+        "diagramAlt": "IUI Procedure Flow"
+      },
+      "ivf": {
+        "name": "IVF",
+        "fullName": "In Vitro Fertilization",
+        "description": "Revolutionary technique where eggs are fertilized with sperm outside the body and transferred to the uterus.",
+        "successRate": "Success Rate: 40-50% per cycle",
+        "processTitle": "IVF Process:",
+        "step1": "Ovarian stimulation with medications",
+        "step2": "Egg retrieval under sedation",
+        "step3": "Laboratory fertilization with sperm",
+        "step4": "Embryo development (3-5 days)",
+        "step5": "Embryo transfer to uterus",
+        "diagramAlt": "IVF Complete Cycle"
+      },
+      "opu": {
+        "name": "OPU",
+        "fullName": "Ovum Pickup",
+        "description": "Minor surgical procedure to retrieve eggs from ovaries.",
+        "step1": "Ultrasound-guided needle aspiration",
+        "step2": "Performed under sedation",
+        "step3": "Recovery within 24 hours",
+        "step4": "Minimal discomfort"
+      },
+      "embryoTransfer": {
+        "name": "Embryo Transfer",
+        "fullName": "Embryo Transfer",
+        "description": "Final step in IVF, where embryos are transferred to the uterus.",
+        "successRate": "Success Rate: 40-50% per cycle",
+        "step1": "Embryos loaded into catheter",
+        "step2": "Inserted through cervix",
+        "step3": "Released into uterus",
+        "step4": "Performed 3-5 days post-fertilization"
+      },
+      "eggDonation": {
+        "name": "Egg Donation",
+        "fullName": "Egg Donation Program",
+        "description": "Option for women unable to produce viable eggs.",
+        "step1": "Careful donor selection and screening",
+        "step2": "Donor undergoes stimulation",
+        "step3": "Eggs retrieved and fertilized",
+        "step4": "Embryos transferred to recipient"
+      },
+      "eggFreezing": {
+        "name": "Egg Freezing",
+        "fullName": "Fertility Preservation",
+        "description": "Preserve fertility for future family planning.",
+        "step1": "Ovarian stimulation",
+        "step2": "Egg retrieval and freezing",
+        "step3": "Secure storage",
+        "step4": "Thawed when ready to conceive"
+      }
+    },
+    "counselling": {
+      "title": "Counselling Support",
+      "subtitle": "A Shoulder to Lean On Throughout Your Journey",
+      "individual": {
+        "title": "Individual Counselling",
+        "description": "One-on-one sessions tailored to address your concerns, fears, and aspirations."
+      },
+      "couple": {
+        "title": "Couple Counselling",
+        "description": "Joint sessions to strengthen relationships and foster deeper connections."
+      },
+      "group": {
+        "title": "Group Counselling",
+        "description": "Shared experiences, collective support, and a sense of community."
+      }
+    },
+    "guidelines": {
+      "title": "Treatment Guidelines",
+      "subtitle": "Essential Do's and Don'ts During Treatment",
+      "dosTitle": "Do's",
+      "do1": "Follow medication instructions carefully",
+      "do2": "Attend all scheduled appointments",
+      "do3": "Maintain balanced diet and regular exercise",
+      "do4": "Get adequate rest and sleep",
+      "do5": "Stay hydrated throughout treatment",
+      "do6": "Communicate openly with your doctor",
+      "dontsTitle": "Don'ts",
+      "dont1": "Avoid smoking and alcohol",
+      "dont2": "Limit caffeine consumption",
+      "dont3": "No high-impact activities or heavy lifting",
+      "dont4": "Avoid excessive stress and anxiety",
+      "dont5": "Don't skip medications",
+      "dont6": "Avoid unverified advice or treatments"
+    },
+    "facilities": {
+      "title": "Our Facilities",
+      "subtitle": "A Hub of Excellence in Reproductive Care",
+      "artLevel1Title": "ART Level 1 Clinic",
+      "artLevel1Name": "Shinde Nursing and Maternity Home",
+      "artLevel1Service1": "IUI Procedures",
+      "artLevel1Service2": "Cycle Stimulation",
+      "artLevel1Service3": "Comprehensive Investigations",
+      "artLevel1Address": "48 Subhash Nagar, Opposite do talaab, Indore Road, Ujjain, MP",
+      "artLevel2Title": "ART Level 2 Centre",
+      "artLevel2Name": "Premier Infertility Centre Partnership",
+      "artLevel2Service1": "IVF Treatments",
+      "artLevel2Service2": "Advanced ART Procedures",
+      "artLevel2Service3": "Embryo Lab Facilities",
+      "artLevel2Desc": "Seamless access to advanced reproductive technologies"
+    },
+    "doctor": {
+      "title": "Dr. Kavisha Shinde",
+      "subtitle": "A Luminary in Reproductive Medicine",
+      "description": "With an unyielding passion for infertility treatment, Dr. Kavisha brings a wealth of experience, expertise, and empathy. Her tireless efforts have transformed countless lives, earning her a reputation as a leading expert in the field.",
+      "credentialsTitle": "Credentials & Experience",
+      "credential1": "MS (Obstetrics & Gynaecology)",
+      "credential2": "DCR Diploma in Clinical ART",
+      "credential3": "13+ Years Surgical Experience",
+      "credential4": "7+ Years in Reproductive Medicine",
+      "knowMoreButton": "Know More About Dr. Kavisha"
+    },
+    "cta": {
+      "title": "Take the First Step",
+      "description": "Embark on this transformative journey with us. Schedule a consultation with Dr. Kavisha, and let our team guide you towards parenthood.",
+      "scheduleButton": "Schedule Consultation",
+      "contactButton": "Contact Us"
+    }
+  }
+}

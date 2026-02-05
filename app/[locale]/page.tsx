@@ -219,7 +219,7 @@ export default function Home() {
   ];
 
   return (
-    <div className="overflow-x-hidden">
+    <div className="overflow-hidden">
       {/* Splash Screen */}
       {showSplash && (
         <div className="fixed inset-0 z-[9999] bg-[#F5F7F8] flex items-center justify-center">

@@ -143,7 +143,7 @@ export default function DoctorsPage() {
   ];
 
   return (
-    <div className="bg-[#f5f7f8] flex flex-col items-center pb-0 overflow-x-hidden">
+    <div className="bg-[#f5f7f8] flex flex-col items-center pb-0 overflow-x-hidden overflow-y-hidden">
       <Tabs value={activeTab} onValueChange={setActiveTab} className="w-full">
         <div className="w-full max-w-[1600px] px-3 mx-auto pb-3 md:pt-8">
           <TabsList className="grid w-full grid-cols-1 md:grid-cols-2 mb-8">

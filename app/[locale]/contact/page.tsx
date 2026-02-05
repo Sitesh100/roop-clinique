@@ -189,14 +189,14 @@ export default function ContactPage() {
             {t("stayInTouch.description")}
           </p>
           <div className="flex flex-col gap-3 md:gap-4">
-            <div className="flex gap-4 md:gap-6 items-start">
+            {/* <div className="flex gap-4 md:gap-6 items-start">
               <div className="bg-[#f6de84] rounded-lg w-[40px] h-[40px] md:w-[48px] md:h-[48px] flex items-center justify-center flex-shrink-0">
                 <MapPin className="w-5 h-5 md:w-6 md:h-6 text-[#0c1119]" />
               </div>
               <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] text-[#0c1119] leading-normal flex-1">
                 {t("stayInTouch.address")}
               </p>
-            </div>
+            </div> */}
             <div className="flex gap-4 md:gap-6 items-start">
               <div className="bg-[#f6de84] rounded-lg w-[40px] h-[40px] md:w-[48px] md:h-[48px] flex items-center justify-center flex-shrink-0">
                 <MapPin className="w-5 h-5 md:w-6 md:h-6 text-[#0c1119]" />

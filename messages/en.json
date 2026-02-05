@@ -19,7 +19,7 @@
         "description": "Treatments to improve skin health, brightness, and overall youthful appearance."
       },
       "gynecology": {
-        "title": "Gynecology",
+        "title": "Cosmetic Gynecology",
         "description": "Enhances intimate aesthetics and comfort through safe, minimally invasive procedures."
       },
       "liposuction": {
@@ -42,7 +42,7 @@
       },
       "drKavisha": {
         "name": "Dr. Kavisha Shinde",
-        "description": "Gynecologist and Obstetrician Professional",
+        "description": "Board Certified Consultant Gynaecologist and Infertility Specialist",
         "button": "Know more"
       }
     }
@@ -117,7 +117,7 @@
       "statementDescription": "With a strong foundation in gynecological surgery and a passion for staying at the forefront of advancements in reproductive technology, my goal is to provide personalized, protocol-driven treatment that honors the unique needs and aspirations of each patient. I strive to create a supportive, inclusive environment where patients feel informed, empowered, and hopeful.",
       "expertiseTitle": "Expertise in Gynecology & Fertility",
       "expertiseDescription": "Specialized in infertility treatment, ART procedures, and gynecological care with a compassionate, patient-centered approach.",
-      "gynecology": "Gynecology",
+      "gynecology": "Cosmetic Gynecology",
       "prp": "PRP",
       "infertilityCounselling": "Infertility Counselling",
       "ivfArt": "IVF & ART",
@@ -191,7 +191,7 @@
     },
     "stayInTouch": {
       "title": "Stay in touch, hassle free",
-      "description": "Reach us easily via call, email, or Instagram — we're here to help you anytime.",
+      "description": "Reach us easily via call, email, or Instagram we're here to help you anytime.",
       "address": "48, Subash Nagar, Indore Road, Near Do Talab, Ujjain MP  (for surgeries)",
       "addressSurgery": "3 Phulwani Plaza, Opposite Iskcon Temple 286, Mahashweta Nagar, Ujjain MP",
       "phone": "7024411704 | 0734-3506016",
@@ -241,7 +241,7 @@
       "title": "Non Surgical",
       "viewAll": "View all →",
       "gynecology": {
-        "title": "Gynecology",
+        "title": "Cosmetic Gynecology",
         "description": "Enhances intimate aesthetics and comfort through safe, minimally invasive procedures."
       },
       "cosmetology": {

@@ -231,7 +231,7 @@ export default function MannequinZoom3D({ modelUrl }) {
           {selectedPart ? (
             <div className="pointer-events-auto bg-white/95 dark:bg-slate-900/90 rounded-xl p-4 shadow-2xl">
               <h3 className="text-lg font-semibold">{selectedPart}</h3>
-              <p className="text-sm mt-2">Quick info about the {selectedPart} — use this area to show anatomy, measurements, or controls.</p>
+              <p className="text-sm mt-2">Quick info about the {selectedPart} use this area to show anatomy, measurements, or controls.</p>
               <div className="mt-3 flex gap-2">
                 <button className="px-3 py-1 rounded-md bg-sky-500 text-white text-sm">Action</button>
                 <button className="px-3 py-1 rounded-md border text-sm">More</button>

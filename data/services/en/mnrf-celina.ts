@@ -50,7 +50,7 @@ const mnrfCelina: PageData = {
         title: 'Why Choose Roop Clinic for MNRF Celina Treatment',
         description: [
           'Roop Plastic Surgery Clinique stands out as a premier destination for MNRF Celina treatments. We use the authentic Celina MNRF system, which is one of the most advanced micro-needling radiofrequency devices available. Our clinic features experienced dermatologists and aesthetic specialists who are extensively trained in MNRF technology and understand skin physiology, proper treatment protocols, and how to customize treatments for Indian skin types.',
-          'Our comprehensive approach includes detailed skin assessment using advanced skin analysis tools, customized treatment protocols based on skin type, concern, and desired outcomes, proper pre-treatment preparation and post-treatment care guidance, use of premium skincare products to enhance and maintain results, and combination treatments when appropriate (MNRF with PRP, chemical peels, or other modalities for enhanced results). Located at No 3 Phulwani Plaza, 286 Mahashweta Nagar, Opposite Iskcon temple, Ujjain, MP, our facility provides a clean, comfortable environment with state-of-the-art equipment and strict sterilization protocols.',
+          'Our comprehensive approach includes detailed skin assessment using advanced skin analysis tools, customized treatment protocols based on skin type, concern, and desired outcomes, proper pre-treatment preparation and post-treatment care guidance, use of premium skincare products to enhance and maintain results, and combination treatments when appropriate (MNRF with PRP, chemical peels, or other modalities for enhanced results).',
         ],
       },
       {

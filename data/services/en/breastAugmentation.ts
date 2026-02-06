@@ -80,7 +80,7 @@ const breastAugmentation: PageData = {
         title: 'Why Choose Roop Clinic for Breast Surgery',
         description: [
           'Roop Plastic Surgery Clinique stands out as a premier destination for all breast surgery procedures - augmentation, lift, and reduction. Our clinic features experienced board-certified plastic surgeons who specialize in aesthetic breast surgery and bring years of expertise to every procedure. We use only FDA-approved, high-quality breast implants from reputable manufacturers, ensuring both safety and optimal aesthetic outcomes.',
-          'Our approach centers on personalized, result-focused treatments customized to each patient\'s unique anatomy, lifestyle, and aesthetic goals. We understand that breast surgery is a deeply personal decision, and we provide comprehensive consultation, realistic expectation setting, and compassionate care throughout your journey. Located at No 3 Phulwani Plaza, 286 Mahashweta Nagar, Opposite Iskcon temple, Ujjain, MP, our facility is equipped with state-of-the-art surgical technology and provides a comfortable, private environment for your procedure and recovery.',
+          'Our approach centers on personalized, result-focused treatments customized to each patient\'s unique anatomy, lifestyle, and aesthetic goals. We understand that breast surgery is a deeply personal decision, and we provide comprehensive consultation, realistic expectation setting, and compassionate care throughout your journey. Our facility is equipped with state-of-the-art surgical technology and provides a comfortable, private environment for your procedure and recovery.',
         ],
       },
     ],

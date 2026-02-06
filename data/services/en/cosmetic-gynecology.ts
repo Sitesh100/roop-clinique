@@ -50,7 +50,7 @@ const cosmeticGynecology: PageData = {
         title: 'Why Choose Roop Clinic for Cosmetic Gynecology',
         description: [
           'Roop Plastic Surgery Clinique stands out as a premier destination for cosmetic gynecology procedures. Our clinic features experienced plastic surgeons and gynecologists who specialize in intimate aesthetic and functional procedures. We understand the sensitive and personal nature of these concerns and provide a completely confidential, non-judgmental, and compassionate environment where women can discuss their concerns openly.',
-          'We utilize advanced laser technology for non-surgical treatments and meticulous surgical techniques for permanent solutions. Our comprehensive approach includes detailed consultation to understand your concerns and goals, thorough examination in a private setting, discussion of all treatment options (non-surgical and surgical), realistic expectation setting, and dedicated post-procedure care. Located at No 3 Phulwani Plaza, 286 Mahashweta Nagar, Opposite Iskcon temple, Ujjain, MP, our facility ensures complete privacy with separate consultation and treatment areas for intimate procedures.',
+          'We utilize advanced laser technology for non-surgical treatments and meticulous surgical techniques for permanent solutions. Our comprehensive approach includes detailed consultation to understand your concerns and goals, thorough examination in a private setting, discussion of all treatment options (non-surgical and surgical), realistic expectation setting, and dedicated post-procedure care. Our facility ensures complete privacy with separate consultation and treatment areas for intimate procedures.',
         ],
       },
       {

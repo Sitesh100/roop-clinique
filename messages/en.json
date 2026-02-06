@@ -1,7 +1,8 @@
 {
   "HomePage": {
     "hero": {
-      "title": "<highlight>Roop Plastic Surgery Clinique And Infertility Counselling Centre</highlight> Where expert care meets artistry to enhance your natural beauty.",
+      "title": "<highlight>Roop Plastic Surgery Clinique And Infertility Counselling Centre</highlight>",
+      "subtitle": "Where expert care meets artistry to enhance your natural beauty.",
       "description": "Personalized treatments in cosmetic surgery, skin, and hair restoration, focused on advanced techniques, safety, and natural-looking results.",
       "consultButton": "Consult Now",
       "exploreButton": "Explore Services"
@@ -225,8 +226,8 @@
         "description": "Safe methods to reduce excess fat and achieve healthy body balance naturally."
       },
       "maleBreast": {
-        "title": "Male Breast",
-        "description": "Treatments to correct enlarged male breasts and restore chest shape."
+        "title": "Female Breast",
+        "description": "Treatments to correct enlarged female breasts and restore chest shape."
       },
       "abdomen": {
         "title": "Abdomen",

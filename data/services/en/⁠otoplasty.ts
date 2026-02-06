@@ -50,7 +50,7 @@ const otoplasty: PageData = {
         title: 'Why Choose Roop Clinic for Otoplasty',
         description: [
           'Roop Plastic Surgery Clinique stands out as a premier destination for otoplasty and ear correction procedures. Our clinic features experienced plastic surgeons who specialize in facial plastic surgery and bring years of expertise to every procedure. We utilize advanced cartilage reshaping and suturing techniques that ensure both safety and natural-looking results with minimal visible scarring.',
-          'Our approach centers on personalized, result-focused treatments customized to each patient\'s unique ear anatomy and aesthetic goals. We understand the psychological impact of prominent or misshapen ears, particularly in children, and provide compassionate care throughout the journey. Located at No 3 Phulwani Plaza, 286 Mahashweta Nagar, Opposite Iskcon temple, Ujjain, MP, our facility provides convenient access with state-of-the-art surgical equipment and a comfortable, welcoming environment.',
+          'Our approach centers on personalized, result-focused treatments customized to each patient\'s unique ear anatomy and aesthetic goals. We understand the psychological impact of prominent or misshapen ears, particularly in children, and provide compassionate care throughout the journey. ',
         ],
       },
       {

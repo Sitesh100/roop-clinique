@@ -24,12 +24,12 @@ const serviceRoutes: Record<string, string | null> = {
   "Hair Loss": "hair-transplant",
   "Face": "facial-rejuvenation",
   "Weight loss": null,
-  "Male Breast": "breast-augmentation",
+  "Female Breast": "breast-augmentation",
   "Abdomen": "abdominoplasty",
   "Infertility Counselling": null, // Special link handled separately
   
   // Non-Surgical (English)
-  "Gynecology": "cosmetic-gynecology",
+  "Cosmetic Gynecology": "cosmetic-gynecology",
   "Cosmetology": "miscellaneous",
   "Microneedling": "miscellaneous",
   "PRP": "miscellaneous",
@@ -59,7 +59,7 @@ const serviceRoutes: Record<string, string | null> = {
   "बालों का झड़ना": "hair-transplant",
   "चेहरा": "facial-rejuvenation",
   "वजन घटाना": null,
-  "पुरुष स्तन": "breast-augmentation",
+  "स्त्री स्तन": "breast-augmentation",
   "पेट": "abdominoplasty",
   "बांझपन परामर्श": null, // Special link handled separately
   

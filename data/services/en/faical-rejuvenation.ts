@@ -50,7 +50,7 @@ const facialRejuvenation: PageData = {
         title: 'Why Choose Roop Clinic for Facial Rejuvenation',
         description: [
           'Roop Plastic Surgery Clinique stands out as a premier destination for both non-surgical and surgical facial rejuvenation. Our clinic features experienced board-certified plastic surgeons and dermatologists who specialize in facial aesthetics and anti-aging treatments. We utilize state-of-the-art technology including advanced lasers, FDA-approved injectables, premium dermal fillers, and modern surgical techniques to deliver safe, natural-looking results.',
-          'Our comprehensive approach includes detailed facial analysis assessing skin quality, facial anatomy, aging patterns, and aesthetic goals, customized treatment plans combining multiple modalities for optimal results, use of only premium, FDA-approved products and materials, natural-looking outcomes that enhance rather than change your appearance, and comprehensive pre and post-treatment care. Located at No 3 Phulwani Plaza, 286 Mahashweta Nagar, Opposite Iskcon temple, Ujjain, MP, our facility provides a comfortable, private environment with dedicated treatment rooms for both non-surgical and surgical procedures.',
+          'Our comprehensive approach includes detailed facial analysis assessing skin quality, facial anatomy, aging patterns, and aesthetic goals, customized treatment plans combining multiple modalities for optimal results, use of only premium, FDA-approved products and materials, natural-looking outcomes that enhance rather than change your appearance, and comprehensive pre and post-treatment care.',
         ],
       },
       {

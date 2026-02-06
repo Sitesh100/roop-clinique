@@ -52,7 +52,7 @@ const laserHairReduction: PageData = {
         title: 'Why Choose Roop Clinique for Laser Hair Reduction',
         description: [
           'Roop Clinique stands out as a premier destination for laser hair reduction with state-of-the-art FDA-approved laser technology operated by trained and certified professionals. Our clinic features advanced laser systems suitable for all skin types, including Indian skin tones, ensuring safe and effective treatment for everyone.',
-          'Our approach centers on personalized treatment plans based on your skin type, hair color, and treatment goals. We provide thorough consultation, realistic expectation setting, and comprehensive aftercare guidance. Located at No 3 Phulwani Plaza, 286 Mahashweta Nagar, Opposite Iskcon temple, Ujjain, MP, our facility offers a comfortable, hygienic environment with the latest cooling technology for maximum comfort during treatment.',
+          'Our approach centers on personalized treatment plans based on your skin type, hair color, and treatment goals. We provide thorough consultation, realistic expectation setting, and comprehensive aftercare guidance.',
         ],
       },
       {

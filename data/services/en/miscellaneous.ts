@@ -80,7 +80,7 @@ const miscellaneous: PageData = {
         title: 'Why Choose Roop Clinique for Miscellaneous Procedures',
         description: [
           'Roop Clinique offers a comprehensive range of non-surgical and surgical aesthetic procedures under one roof. Our clinic features experienced board-certified plastic surgeons and dermatologists who specialize in both invasive and non-invasive cosmetic treatments. We use only FDA-approved products, advanced laser technology, and proven surgical techniques to ensure safety and effectiveness.',
-          'Located at No 3 Phulwani Plaza, 286 Mahashweta Nagar, Opposite Iskcon temple, Ujjain, MP, our facility provides a comfortable, hygienic environment for all procedures. Whether you\'re looking for a quick non-surgical refresh like PRP or chemical peels, or considering a minor surgical enhancement like dimple creation or fat grafting, our team provides personalized consultation, realistic expectation setting, and comprehensive aftercare. Many of these procedures have minimal downtime, allowing you to return to your daily activities quickly while enjoying lasting aesthetic improvements.',
+          'Whether you\'re looking for a quick non-surgical refresh like PRP or chemical peels, or considering a minor surgical enhancement like dimple creation or fat grafting, our team provides personalized consultation, realistic expectation setting, and comprehensive aftercare. Many of these procedures have minimal downtime, allowing you to return to your daily activities quickly while enjoying lasting aesthetic improvements.',
         ],
       },
     ],

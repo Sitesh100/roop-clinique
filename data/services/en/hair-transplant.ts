@@ -72,7 +72,7 @@ const hairTransplant: PageData = {
         title: 'Why Choose Roop Clinique for Hair Loss Treatment',
         description: [
           'Roop Clinique stands out as a premier destination for comprehensive hair loss treatment offering both non-surgical and surgical solutions under one roof. Our clinic features experienced hair restoration specialists who bring years of expertise in trichology and hair transplant surgery. We utilize advanced technologies including PRP systems, GFC kits, microneedling devices, and state-of-the-art FUE instruments.',
-          'Our approach centers on accurate diagnosis first - understanding the cause of your hair loss before recommending treatment. We believe in evidence-based medicine, using only treatments with proven efficacy. Located at No 3 Phulwani Plaza, 286 Mahashweta Nagar, Opposite Iskcon temple, Ujjain, MP, our facility provides a comfortable, hygienic environment for all procedures. Whether you\'re experiencing early thinning or advanced baldness, our team provides personalized consultation, realistic expectation setting, and comprehensive treatment plans tailored to your needs.',
+          'Our approach centers on accurate diagnosis first - understanding the cause of your hair loss before recommending treatment. We believe in evidence-based medicine, using only treatments with proven efficacy. ',
         ],
       },
     ],

@@ -51,7 +51,7 @@ const liposuction: PageData = {
         title: 'Why Choose Roop Clinic for Liposuction',
         description: [
           'Roop Plastic Surgery Clinique stands out as a premier destination for advanced liposuction and body contouring procedures. Our clinic features experienced plastic surgeons who bring years of expertise to every procedure. We utilize advanced ultrasonic, laser and vibra-assisted liposuction techniques that ensure both safety and effectiveness with minimal blood loss.',
-          'Our approach centers on personalized, result-focused treatments that are customized to your unique body contouring goals. We have a fully equipped surgical facility to ensure patient safety and comfort. Located at No 3 Phulwani Plaza, 286 Mahashweta Nagar, Opposite Iskcon temple, Ujjain, MP, our facility provides convenient access for patients. We believe in transparent consultation and realistic expectation setting to ensure optimal patient satisfaction.',
+          'Our approach centers on personalized, result-focused treatments that are customized to your unique body contouring goals. We have a fully equipped surgical facility to ensure patient safety and comfort.',
         ],
       },
       {

@@ -257,19 +257,24 @@ export default function Home() {
             <div className="absolute inset-0 p-4 sm:p-6 md:p-10 flex items-center justify-between">
               {/* Left content */}
               <div className="flex flex-col gap-3 sm:gap-5 max-w-[900px] z-10">
-                <h1
-                  className="text-[24px] sm:text-[32px] md:text-[48px] text-white leading-tight"
-                  dangerouslySetInnerHTML={{
-                    __html: t
-                      .raw("hero.title")
-                      .replace(
-                        "<highlight>",
-                        '<span class="text-[#F6DE84] font-bold">'
-                      )
-                      .replace("</highlight>", "</span>"),
-                  }}
-                />
-                <p className="text-white/90 text-[14px] sm:text-[18px] md:text-[24px] max-w-[700px]">
+                <div>
+                  <h1
+                    className="text-[24px] sm:text-[32px] md:text-[48px] text-white text-center md:text-left leading-tight"
+                    dangerouslySetInnerHTML={{
+                      __html: t
+                        .raw("hero.title")
+                        .replace(
+                          "<highlight>",
+                          '<span class="text-[#F6DE84] font-bold">'
+                        )
+                        .replace("</highlight>", "</span>",),
+                    }}
+                  />
+                  <p className="text-white/80 text-[20px] font-semibold sm:text-[24px] md:text-[32px] mt-2 text-center md:text-left">
+                    {t("hero.subtitle")}
+                  </p>
+                </div>
+                <p className="text-white/90 text-[14px] sm:text-[18px] md:text-[24px] max-w-[700px] text-center md:text-left ">
                   {t("hero.description")}
                 </p>
                 <div className="flex flex-col sm:flex-row gap-2 sm:gap-4">
@@ -356,7 +361,7 @@ export default function Home() {
               <ServiceCard title="Liposuction" description="Fat removal surgery" icon={{ src: "/icons/liposuction.svg", alt: "Liposuction" }} variant="centered" />
               <ServiceCard title="Fat Grafting" description="Natural body contouring" icon={{ src: "/icons/fatgrafting.svg", alt: "Fat Grafting" }} variant="centered" />
               <ServiceCard title="Tummy Tuck" description="Abdominal contouring" icon={{ src: "/icons/tummytuck.svg", alt: "Tummy Tuck" }} variant="centered" />
-              <ServiceCard title="Gynecomastia" description="Male breast reduction" icon={{ src: "/icons/gynecomastia.svg", alt: "Gynecomastia" }} variant="centered" />
+              <ServiceCard title="Female Breast Reduction" description="Female breast reduction" icon={{ src: "/icons/gynecomastia.svg", alt: "Female Breast Reduction" }} variant="centered" />
               <ServiceCard title="Hair Transplant" description="Natural hair restoration" icon={{ src: "/icons/hairtransplant.svg", alt: "Hair Transplant" }} variant="centered" />
             </div>
           </div>

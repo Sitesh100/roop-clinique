@@ -1,3 +1,4 @@
+
 import { notFound } from 'next/navigation';
 import ServicePageUI from '@/components/servicePages/ServicePageUI';
 import { servicesEN } from '@/data/services/en';

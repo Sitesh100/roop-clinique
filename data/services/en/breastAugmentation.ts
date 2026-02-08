@@ -65,7 +65,7 @@ const breastAugmentation: PageData = {
       {
         title: 'Breast Reduction',
         description: [
-          '<strong>What is Breast Reduction?</strong> Significantly enlarged breasts can cause distress. Women with very large breasts suffer from neck/back pain, sleep disturbances, skin rashes, limited clothing options, hindrance to physical activities, unwanted attention, and emotional stress. <strong>Breast reduction surgery</strong> permanently solves these issues and restores aesthetic shape and size.',
+          '<strong>What is Breast Reduction?</strong> Significantly enlarged breasts can cause distress. Women with very large breasts suffer from neck/back pain, sleep disturbances, skin rashes, limited clothing options, hindrance to physical activities, unwanted attention, and emotional stress. <strong>Breast reduction surgery</strong> definitively solves these issues and restores aesthetic shape and size.',
           '<strong>Am I a good candidate?</strong> You may be a good candidate if you have: breasts too large for your body frame; heavy sagging breasts with very low nipples; restriction of physical activity due to size/weight; back, neck, shoulder pain and chafing; skin irritation and rashes beneath breasts; psychological distress due to large size; one breast much larger than the other.',
         ],
       },

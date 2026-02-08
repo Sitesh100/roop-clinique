@@ -10,6 +10,7 @@ import facialRejuvenation from './faical-rejuvenation';
 import mnrfCelina from './mnrf-celina';
 import laserHairReduction from './laser-hair-reduction';
 import miscellaneous from './miscellaneous';
+// import gynecomastiatreatment from './gynecomastiatreatment';
 
 export const servicesHI = {
   'rhinoplasty': rhinoplasty,
@@ -24,4 +25,5 @@ export const servicesHI = {
   'mnrf-celina': mnrfCelina,
   'laser-hair-reduction': laserHairReduction,
   'miscellaneous': miscellaneous,
+  // 'gynecomastiatreatment': gynecomastiatreatment,
 };

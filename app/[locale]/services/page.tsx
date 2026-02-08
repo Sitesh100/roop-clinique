@@ -22,7 +22,7 @@ const serviceRoutes: Record<string, string | null> = {
   // Aesthetic Treatments (English)
   "Skin": "miscellaneous",
   "Hair Loss": "hair-transplant",
-  "Face": "facial-rejuvenation",
+  // "Face": "facial-rejuvenation",
   "Weight loss": null,
   "Female Breast": "breast-augmentation",
   "Abdomen": "abdominoplasty",
@@ -31,33 +31,34 @@ const serviceRoutes: Record<string, string | null> = {
   // Non-Surgical (English)
   "Cosmetic Gynecology": "cosmetic-gynecology",
   "Cosmetology": "miscellaneous",
-  "Microneedling": "miscellaneous",
+  "Microneedling": "mnrf-celina",
   "PRP": "miscellaneous",
   "Peels": "miscellaneous",
-  "Botox for Wrinkles": "miscellaneous",
+  "Botulinum Therapy for Wrinkles": "miscellaneous",
   "Threads for Facelift": "miscellaneous",
-  "Face Rejuvenation": "facial-rejuvenation",
+  // "Face Rejuvenation": "facial-rejuvenation",
   
   // Surgical (English)
   "Liposuction": "liposuction",
   "Fat Grafting": "liposuction",
   "Tummy Tuck": "abdominoplasty",
-  "Gynecomastia": "breast-augmentation",
+  "Female Breast Reduction": "gynecomastiatreatment",
   "Rhinoplasty": "rhinoplasty",
   "Otoplasty": "otoplasty",
   "Hair Transplant": "hair-transplant",
+  "Gynecomastia": "gynecomastiatreatment",
   
   // Laser Treatments (English)
   "MNRF Celina": "mnrf-celina",
   "Tattoo removal": "miscellaneous",
   "Laser hair reduction": "laser-hair-reduction",
   "HIFU": null,
-  "Hydrafacial": "miscellaneous",
+  "Medifacial": "miscellaneous",
   
   // Hindi translations mapping (must match hi.json exactly)
   "त्वचा": "miscellaneous",
   "बालों का झड़ना": "hair-transplant",
-  "चेहरा": "facial-rejuvenation",
+  // "चेहरा": "facial-rejuvenation",
   "वजन घटाना": null,
   "स्त्री स्तन": "breast-augmentation",
   "पेट": "abdominoplasty",
@@ -67,14 +68,14 @@ const serviceRoutes: Record<string, string | null> = {
   "कॉस्मेटोलॉजी": "miscellaneous",
   "माइक्रोनीडलिंग": "miscellaneous",
   "पील्स": "miscellaneous",
-  "झुर्रियों के लिए बोटॉक्स": "miscellaneous",
+  "झुर्रियों के लिए बोटुलिनम टॉक्सिन थेरेपी": "miscellaneous",
   "फेसलिफ्ट के लिए थ्रेड्स": "miscellaneous",
-  "चेहरे का कायाकल्प": "facial-rejuvenation",
+  // "चेहरे का कायाकल्प": "facial-rejuvenation",
   
   "लिपोसक्शन": "liposuction",
   "फैट ग्राफ्टिंग": "liposuction",
   "टमी टक": "abdominoplasty",
-  "गाइनेकोमास्टिया": "breast-augmentation",
+  "गाइनेकोमास्टिया": "gynecomastiatreatment",
   "राइनोप्लास्टी": "rhinoplasty",
   "ओटोप्लास्टी": "otoplasty",
   "हेयर ट्रांसप्लांट": "hair-transplant",
@@ -82,7 +83,7 @@ const serviceRoutes: Record<string, string | null> = {
   "MNRF सेलिना": "mnrf-celina",
   "टैटू हटाना": "miscellaneous",
   "लेजर हेयर रिडक्शन": "laser-hair-reduction",
-  "हाइड्राफेशियल": "miscellaneous",
+  "मेडिफेशियल": "miscellaneous",
 };
 
 export default function Services() {
@@ -321,12 +322,12 @@ export default function Services() {
       description: t("aestheticTreatments.weightLoss.description"),
     },
     {
-      title: t("aestheticTreatments.maleBreast.title"),
+      title: t("aestheticTreatments.femaleBreast.title"),
       icon: {
         src: "/icons/gynecomastia.svg",
-        alt: t("aestheticTreatments.maleBreast.title"),
+        alt: t("aestheticTreatments.femaleBreast.title"),
       },
-      description: t("aestheticTreatments.maleBreast.description"),
+      description: t("aestheticTreatments.femaleBreast.description"),
     },
     {
       title: t("aestheticTreatments.abdomen.title"),
@@ -343,6 +344,14 @@ export default function Services() {
         alt: t("aestheticTreatments.infertilityCounselling.title"),
       },
       description: t("aestheticTreatments.infertilityCounselling.description"),
+    },
+     {
+      title: t("surgical.gynecomastia.title"),
+      icon: {
+        src: "/icons/gyno.png",
+        alt: t("surgical.gynecomastia.title"),
+      },
+      description: t("surgical.gynecomastia.description"),
     },
   ];
 
@@ -395,14 +404,14 @@ export default function Services() {
       icon: { src: "/icons/face.svg", alt: t("nonSurgical.threads.title") },
       description: t("nonSurgical.threads.description"),
     },
-    {
-      title: t("nonSurgical.faceRejuvenation.title"),
-      icon: {
-        src: "/icons/face.svg",
-        alt: t("nonSurgical.faceRejuvenation.title"),
-      },
-      description: t("nonSurgical.faceRejuvenation.description"),
-    },
+    // {
+    //   title: t("nonSurgical.faceRejuvenation.title"),
+    //   icon: {
+    //     src: "/icons/face.svg",
+    //     alt: t("nonSurgical.faceRejuvenation.title"),
+    //   },
+    //   description: t("nonSurgical.faceRejuvenation.description"),
+    // },
   ];
 
   const surgicalServices: {
@@ -435,12 +444,12 @@ export default function Services() {
       description: t("surgical.tummyTuck.description"),
     },
     {
-      title: t("surgical.gynecomastia.title"),
+      title: t("surgical.femaleBreast.title"),
       icon: {
         src: "/icons/gynecomastia.svg",
-        alt: t("surgical.gynecomastia.title"),
+        alt: t("surgical.femaleBreast.title"),
       },
-      description: t("surgical.gynecomastia.description"),
+      description: t("surgical.femaleBreast.description"),
     },
     {
       title: t("surgical.rhinoplasty.title"),
@@ -465,6 +474,14 @@ export default function Services() {
         alt: t("surgical.hairTransplant.title"),
       },
       description: t("surgical.hairTransplant.description"),
+    },
+    {
+      title: t("surgical.gynecomastia.title"),
+      icon: {
+        src: "/icons/gyno.png",
+        alt: t("surgical.gynecomastia.title"),
+      },
+      description: t("surgical.gynecomastia.description"),
     },
   ];
 
@@ -506,12 +523,12 @@ export default function Services() {
       description: t("laserTreatments.hifu.description"),
     },
     {
-      title: t("laserTreatments.hydrafacial.title"),
+      title: t("laserTreatments.medifacial.title"),
       icon: {
         src: "/icons/face.svg",
-        alt: t("laserTreatments.hydrafacial.title"),
+        alt: t("laserTreatments.medifacial.title"),
       },
-      description: t("laserTreatments.hydrafacial.description"),
+      description: t("laserTreatments.medifacial.description"),
     },
   ];
 
@@ -554,6 +571,10 @@ export default function Services() {
                 >
                   {serviceRoute ? (
                     <Link href={`/${locale}/services/${serviceRoute}`}>
+                      {cardContent}
+                    </Link>
+                  ) : service.title === "Infertility Counselling" || service.title === "बांझपन परामर्श" ? (
+                    <Link href={`/${locale}/Infertility-Counselling`}>
                       {cardContent}
                     </Link>
                   ) : (
@@ -602,9 +623,11 @@ export default function Services() {
                 {t("banner.description")}
               </p>
             </div>
-            <button className="bg-[#F6DE84] text-[#0C1119] rounded-xl h-11 px-6 text-[16px] font-bold hidden md:block">
+            <a href="/contact">
+            <button className="bg-[#F6DE84] cursor-pointer hover:scale-105 transition-transform text-[#0C1119] rounded-xl h-11 px-6 text-[16px] font-bold hidden md:block">
               {t("banner.bookButton")}
             </button>
+            </a>
           </div>
         </div>
       </section>

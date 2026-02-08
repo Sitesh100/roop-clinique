@@ -1,10 +1,18 @@
 "use client";
 import Image from "next/image";
-import { Phone, Mail, MapPin, Instagram } from "lucide-react";
+import { Phone, Mail, MapPin, Instagram, ChevronRight, ChevronLeft } from "lucide-react";
 import { useTranslations } from "next-intl";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Autoplay from "embla-carousel-autoplay";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -15,6 +23,11 @@ export default function ContactPage() {
   const bannerRef = useRef<HTMLDivElement>(null);
   const contactMethodsRef = useRef<HTMLDivElement>(null);
   const stayInTouchRef = useRef<HTMLDivElement>(null);
+  
+  // Autoplay plugin for carousel
+  const autoplayPlugin = useRef(
+    Autoplay({ delay: 4000, stopOnInteraction: true })
+  );
   
   useEffect(() => {
     // Disable animations on mobile devices
@@ -163,74 +176,148 @@ export default function ContactPage() {
       </section>
 
       {/* Stay in Touch Section */}
-      <section ref={stayInTouchRef} className="w-full max-w-[1600px] mx-auto px-3 md:px-4 lg:px-3 flex flex-col lg:flex-row gap-8 md:gap-12 lg:gap-16 items-center">
-        {/* Image with decorative boxes */}
-        <div className="relative flex-shrink-0 w-full lg:w-auto flex justify-center">
-          <div className="relative">
-            <div className="absolute bg-[#f6de84] w-[120px] h-[150px] sm:w-[140px] sm:h-[180px] md:w-[160px] md:h-[200px] lg:w-[180px] lg:h-[230px] rounded-[16px] md:rounded-[22px] top-0 left-0 z-0"></div>
-            <div className="absolute bg-[#f6de84] w-[100px] h-[120px] sm:w-[120px] sm:h-[140px] md:w-[140px] md:h-[160px] lg:w-[160px] lg:h-[180px] rounded-[16px] md:rounded-[22px] bottom-0 right-0 z-0"></div>
-            <div className="relative w-[280px] h-[220px] sm:w-[350px] sm:h-[270px] md:w-[420px] md:h-[320px] lg:w-[500px] lg:h-[380px] rounded-[12px] md:rounded-[18px] overflow-hidden ml-[20px] sm:ml-[25px] md:ml-[30px] lg:ml-[35px] mt-[18px] sm:mt-[22px] md:mt-[25px] lg:mt-[27px] z-10">
-              <Image
-                src="/gallery/contactImage.png"
-                alt="Medical consultation"
-                fill
-                className="object-cover"
-              />
-            </div>
-          </div>
-        </div>
+      <section ref={stayInTouchRef} className="w-full max-w-[1600px] mx-auto px-3 md:px-4 lg:px-3">
+        <Carousel 
+          className="w-full" 
+          opts={{ loop: true }}
+          plugins={[autoplayPlugin.current]}
+          onMouseEnter={autoplayPlugin.current.stop}
+          onMouseLeave={autoplayPlugin.current.reset}
+        >
+          <CarouselContent>
+            {/* First Location - Surgery Center */}
+            <CarouselItem>
+              <div className="flex flex-col lg:flex-row gap-8 md:gap-12 lg:gap-16 items-center">
+                {/* Image with decorative boxes */}
+                <div className="relative flex-shrink-0 w-full lg:w-auto flex justify-center">
+                  <div className="relative">
+                    <div className="absolute bg-[#f6de84] w-[120px] h-[150px] sm:w-[140px] sm:h-[180px] md:w-[160px] md:h-[200px] lg:w-[180px] lg:h-[230px] rounded-[16px] md:rounded-[22px] top-0 left-0 z-0"></div>
+                    <div className="absolute bg-[#f6de84] w-[100px] h-[120px] sm:w-[120px] sm:h-[140px] md:w-[140px] md:h-[160px] lg:w-[160px] lg:h-[180px] rounded-[16px] md:rounded-[22px] bottom-0 right-0 z-0"></div>
+                    <div className="relative w-[280px] h-[220px] sm:w-[350px] sm:h-[270px] md:w-[420px] md:h-[320px] lg:w-[500px] lg:h-[380px] rounded-[12px] md:rounded-[18px] overflow-hidden ml-[20px] sm:ml-[25px] md:ml-[30px] lg:ml-[35px] mt-[18px] sm:mt-[22px] md:mt-[25px] lg:mt-[27px] z-10">
+                      <Image
+                        src="/gallery/contactImage.png"
+                        alt="Roop Clinique Surgery Center"
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                  </div>
+                </div>
 
-        {/* Content */}
-        <div className="flex flex-col gap-5 md:gap-7 lg:gap-9 flex-1 w-full">
-          <h2 className="font-['Playfair_Display'] text-[32px] sm:text-[40px] md:text-[52px] lg:text-[64px] leading-tight text-[#0c1119] text-center lg:text-left">
-            {t("stayInTouch.title")}
-          </h2>
-          <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] text-[#0c1119] leading-normal text-center lg:text-left">
-            {t("stayInTouch.description")}
-          </p>
-          <div className="flex flex-col gap-3 md:gap-4">
-            <div className="flex gap-4 md:gap-6 items-start">
-              <div className="bg-[#f6de84] rounded-lg w-[40px] h-[40px] md:w-[48px] md:h-[48px] flex items-center justify-center flex-shrink-0">
-                <MapPin className="w-5 h-5 md:w-6 md:h-6 text-[#0c1119]" />
+                {/* Content */}
+                <div className="flex flex-col gap-5 md:gap-7 lg:gap-9 flex-1 w-full">
+                  <h2 className="font-['Playfair_Display'] text-[32px] sm:text-[40px] md:text-[52px] lg:text-[64px] leading-tight text-[#0c1119] text-center lg:text-left">
+                    {t("stayInTouch.title")}
+                  </h2>
+                  <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] text-[#0c1119] leading-normal text-center lg:text-left">
+                    {t("stayInTouch.description")}
+                  </p>
+                  <div className="flex flex-col gap-3 md:gap-4">
+                    <div className="flex gap-4 md:gap-6 items-start">
+                      <div className="bg-[#f6de84] rounded-lg w-[40px] h-[40px] md:w-[48px] md:h-[48px] flex items-center justify-center flex-shrink-0">
+                        <MapPin className="w-5 h-5 md:w-6 md:h-6 text-[#0c1119]" />
+                      </div>
+                      <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] text-[#0c1119] leading-normal flex-1">
+                        {t("stayInTouch.addressSurgery")}
+                      </p>
+                    </div>
+                    <div className="flex gap-4 md:gap-6 items-center">
+                      <div className="bg-[#f6de84] rounded-lg w-[40px] h-[40px] md:w-[48px] md:h-[48px] flex items-center justify-center flex-shrink-0">
+                        <Phone className="w-5 h-5 md:w-6 md:h-6 text-[#0c1119]" />
+                      </div>
+                      <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] text-[#0c1119]">
+                        {t("stayInTouch.phone")}
+                      </p>
+                    </div>
+                    <div className="flex gap-4 md:gap-6 items-center">
+                      <div className="bg-[#f6de84] rounded-lg w-[40px] h-[40px] md:w-[48px] md:h-[48px] flex items-center justify-center flex-shrink-0">
+                        <Mail className="w-5 h-5 md:w-6 md:h-6 text-[#0c1119]" />
+                      </div>
+                      <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] text-[#0c1119] break-all">
+                        {t("stayInTouch.email")}
+                      </p>
+                    </div>
+                    <div className="flex gap-4 md:gap-6 items-center">
+                      <div className="bg-[#f6de84] rounded-lg w-[40px] h-[40px] md:w-[48px] md:h-[48px] flex items-center justify-center flex-shrink-0">
+                        <Instagram className="w-5 h-5 md:w-6 md:h-6 text-[#0c1119]" />
+                      </div>
+                      <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] text-[#0c1119]">
+                        {t("stayInTouch.instagram")}
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] text-[#0c1119] leading-normal flex-1">
-                {t("stayInTouch.address")}
-              </p>
-            </div>
-            <div className="flex gap-4 md:gap-6 items-start">
-              <div className="bg-[#f6de84] rounded-lg w-[40px] h-[40px] md:w-[48px] md:h-[48px] flex items-center justify-center flex-shrink-0">
-                <MapPin className="w-5 h-5 md:w-6 md:h-6 text-[#0c1119]" />
+            </CarouselItem>
+
+            {/* Second Location - Main Clinic */}
+            <CarouselItem>
+              <div className="flex flex-col lg:flex-row gap-8 md:gap-12 lg:gap-16 items-center">
+                {/* Image with decorative boxes */}
+                <div className="relative flex-shrink-0 w-full lg:w-auto flex justify-center">
+                  <div className="relative">
+                    <div className="absolute bg-[#f6de84] w-[120px] h-[150px] sm:w-[140px] sm:h-[180px] md:w-[160px] md:h-[200px] lg:w-[180px] lg:h-[230px] rounded-[16px] md:rounded-[22px] top-0 left-0 z-0"></div>
+                    <div className="absolute bg-[#f6de84] w-[100px] h-[120px] sm:w-[120px] sm:h-[140px] md:w-[140px] md:h-[160px] lg:w-[160px] lg:h-[180px] rounded-[16px] md:rounded-[22px] bottom-0 right-0 z-0"></div>
+                    <div className="relative w-[280px] h-[220px] sm:w-[350px] sm:h-[270px] md:w-[420px] md:h-[320px] lg:w-[500px] lg:h-[380px] rounded-[12px] md:rounded-[18px] overflow-hidden ml-[20px] sm:ml-[25px] md:ml-[30px] lg:ml-[35px] mt-[18px] sm:mt-[22px] md:mt-[25px] lg:mt-[27px] z-10">
+                      <Image
+                        src="/gallery/gallery4.png"
+                        alt="Roop Clinique Main Location"
+                        fill
+                        className="object-cover"
+                      />
+                    </div>
+                  </div>
+                </div>
+
+                {/* Content */}
+                <div className="flex flex-col gap-5 md:gap-7 lg:gap-9 flex-1 w-full">
+                  <h2 className="font-['Playfair_Display'] text-[32px] sm:text-[40px] md:text-[52px] lg:text-[64px] leading-tight text-[#0c1119] text-center lg:text-left">
+                    {t("stayInTouch.title")}
+                  </h2>
+                  <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] text-[#0c1119] leading-normal text-center lg:text-left">
+                    {t("stayInTouch.description")}
+                  </p>
+                  <div className="flex flex-col gap-3 md:gap-4">
+                    <div className="flex gap-4 md:gap-6 items-start">
+                      <div className="bg-[#f6de84] rounded-lg w-[40px] h-[40px] md:w-[48px] md:h-[48px] flex items-center justify-center flex-shrink-0">
+                        <MapPin className="w-5 h-5 md:w-6 md:h-6 text-[#0c1119]" />
+                      </div>
+                      <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] text-[#0c1119] leading-normal flex-1">
+                        {t("stayInTouch.address")}
+                      </p>
+                    </div>
+                    <div className="flex gap-4 md:gap-6 items-center">
+                      <div className="bg-[#f6de84] rounded-lg w-[40px] h-[40px] md:w-[48px] md:h-[48px] flex items-center justify-center flex-shrink-0">
+                        <Phone className="w-5 h-5 md:w-6 md:h-6 text-[#0c1119]" />
+                      </div>
+                      <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] text-[#0c1119]">
+                        {t("stayInTouch.phone")}
+                      </p>
+                    </div>
+                    <div className="flex gap-4 md:gap-6 items-center">
+                      <div className="bg-[#f6de84] rounded-lg w-[40px] h-[40px] md:w-[48px] md:h-[48px] flex items-center justify-center flex-shrink-0">
+                        <Mail className="w-5 h-5 md:w-6 md:h-6 text-[#0c1119]" />
+                      </div>
+                      <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] text-[#0c1119] break-all">
+                        {t("stayInTouch.email")}
+                      </p>
+                    </div>
+                    <div className="flex gap-4 md:gap-6 items-center">
+                      <div className="bg-[#f6de84] rounded-lg w-[40px] h-[40px] md:w-[48px] md:h-[48px] flex items-center justify-center flex-shrink-0">
+                        <Instagram className="w-5 h-5 md:w-6 md:h-6 text-[#0c1119]" />
+                      </div>
+                      <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] text-[#0c1119]">
+                        {t("stayInTouch.instagram")}
+                      </p>
+                    </div>
+                  </div>
+                </div>
               </div>
-              <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] text-[#0c1119] leading-normal flex-1">
-                {t("stayInTouch.addressSurgery")}
-              </p>
-            </div>
-            <div className="flex gap-4 md:gap-6 items-center">
-              <div className="bg-[#f6de84] rounded-lg w-[40px] h-[40px] md:w-[48px] md:h-[48px] flex items-center justify-center flex-shrink-0">
-                <Phone className="w-5 h-5 md:w-6 md:h-6 text-[#0c1119]" />
-              </div>
-              <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] text-[#0c1119]">
-                {t("stayInTouch.phone")}
-              </p>
-            </div>
-            <div className="flex gap-4 md:gap-6 items-center">
-              <div className="bg-[#f6de84] rounded-lg w-[40px] h-[40px] md:w-[48px] md:h-[48px] flex items-center justify-center flex-shrink-0">
-                <Mail className="w-5 h-5 md:w-6 md:h-6 text-[#0c1119]" />
-              </div>
-              <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] text-[#0c1119] break-all">
-                {t("stayInTouch.email")}
-              </p>
-            </div>
-            <div className="flex gap-4 md:gap-6 items-center">
-              <div className="bg-[#f6de84] rounded-lg w-[40px] h-[40px] md:w-[48px] md:h-[48px] flex items-center justify-center flex-shrink-0">
-                <Instagram className="w-5 h-5 md:w-6 md:h-6 text-[#0c1119]" />
-              </div>
-              <p className="text-[16px] sm:text-[18px] md:text-[20px] lg:text-[24px] text-[#0c1119]">
-                {t("stayInTouch.instagram")}
-              </p>
-            </div>
-          </div>
-        </div>
+            </CarouselItem>
+          </CarouselContent>
+          <CarouselPrevious className="hidden lg:flex" />
+          <CarouselNext className="hidden lg:flex" />
+        </Carousel>
       </section>
 
       {/* Footer */}

@@ -40,7 +40,7 @@ const otoplasty: PageData = {
       '<strong>Surgical Approach:</strong> Otoplasty is typically performed under local anesthesia with sedation for adults and general anesthesia for children. The procedure takes 1-2 hours depending on complexity. Incisions are made behind the ear in the natural crease where the ear meets the head, making scars virtually invisible. The surgeon reshapes, repositions, or removes cartilage as needed to achieve the desired result. Internal sutures are used to maintain the new ear position and shape. <strong>Cartilage Scoring Technique:</strong> In some cases, the surgeon may use a technique called cartilage scoring where small cuts are made on the back of the ear cartilage to help it fold more naturally. This allows for precise reshaping without removing tissue.',
     features: [
       '<strong>Recovery Timeline:</strong> A bulky head dressing is typically worn for 1 week to protect the ears and maintain their new position. After the initial dressing is removed, a lighter headband is worn, especially during sleep, for 4-6 weeks to prevent accidental bending. Most patients can return to work or school within 1 week, though contact sports and activities that could impact the ears should be avoided for 6-8 weeks. Swelling and bruising usually subside within 2 weeks.',
-      '<strong>Expected Results:</strong> Results are visible immediately after surgery, though final results become apparent once swelling subsides (typically 6-8 weeks). The ears will appear more proportionate to the face and head, with improved symmetry and natural contours. Results are permanent, as cartilage maintains its new shape. Children who undergo otoplasty often experience improved self-confidence and reduced teasing. Adult patients report enhanced satisfaction with their appearance and increased comfort wearing hairstyles that expose the ears.',
+      '<strong>Expected Results:</strong> Results are visible immediately after surgery, though final results become apparent once swelling subsides (typically 6-8 weeks). The ears will appear more proportionate to the face and head, with improved symmetry and natural contours. Results are definitive, as cartilage maintains its new shape. Children who undergo otoplasty often experience improved self-confidence and reduced teasing. Adult patients report enhanced satisfaction with their appearance and increased comfort wearing hairstyles that expose the ears.',
     ],
   },
 
@@ -64,7 +64,7 @@ const otoplasty: PageData = {
         title: 'Post-Operative Care & Long-Term Maintenance',
         description: [
           'Immediately after surgery, a bulky protective dressing is placed around the head and ears. This dressing must be kept clean and dry and is typically removed after 5-7 days. Pain is usually mild and can be controlled with prescribed medication. Some numbness, tingling, or itching during healing is normal. After the initial dressing is removed, a lighter headband or wrap should be worn, especially during sleep, for 4-6 weeks to protect the ears.',
-          'Stitches are usually dissolvable and do not require removal, though some cases may have sutures removed after 1 week. Avoid sleeping on your side for at least 2 weeks. Gentle hair washing can resume after 1 week, being careful around the ear area. Avoid contact sports, swimming, and activities that could impact the ears for 6-8 weeks. Most swelling and bruising resolve within 2-3 weeks. Final results are visible at 6-8 weeks when all swelling has subsided. Results are permanent, and the ears maintain their new position and shape throughout life.',
+          'Stitches are usually dissolvable and do not require removal, though some cases may have sutures removed after 1 week. Avoid sleeping on your side for at least 2 weeks. Gentle hair washing can resume after 1 week, being careful around the ear area. Avoid contact sports, swimming, and activities that could impact the ears for 6-8 weeks. Most swelling and bruising resolve within 2-3 weeks. Final results are visible at 6-8 weeks when all swelling has subsided. Results are definitive, and the ears maintain their new position and shape throughout life.',
         ],
       },
     ],
@@ -87,9 +87,9 @@ const otoplasty: PageData = {
         'Most patients return to work or school within 1 week. A protective headband should be worn for 4-6 weeks, especially during sleep. Avoid contact sports and activities that could impact the ears for 6-8 weeks. Swelling subsides within 2-3 weeks, with final results visible at 6-8 weeks.',
     },
     {
-      question: 'Are results permanent?',
+      question: 'Are results definitive?',
       answer:
-        'Yes, otoplasty results are permanent. The cartilage maintains its new shape and position throughout life. However, it\'s important to protect the ears during the healing period to ensure optimal long-term results.',
+        'Yes, otoplasty results are definitive. The cartilage maintains its new shape and position throughout life. However, it\'s important to protect the ears during the healing period to ensure optimal long-term results.',
     },
     {
       question: 'Is otoplasty painful?',

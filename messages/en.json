@@ -193,7 +193,7 @@
     "stayInTouch": {
       "title": "Stay in touch, hassle free",
       "description": "Reach us easily via call, email, or Instagram we're here to help you anytime.",
-      "address": "48, Subash Nagar, Indore Road, Near Do Talab, Ujjain MP  (for surgeries)",
+      "address": "48, Subhash Nagar, Indore Road, Near Do Talab, Ujjain MP  (for surgeries)",
       "addressSurgery": "3 Phulwani Plaza, Opposite Iskcon Temple 286, Mahashweta Nagar, Ujjain MP",
       "phone": "7024411704 | 0734-3506016",
       "email": "roopclinique3@gmail.com",
@@ -225,9 +225,9 @@
         "title": "Weight loss",
         "description": "Safe methods to reduce excess fat and achieve healthy body balance naturally."
       },
-      "maleBreast": {
+      "femaleBreast": {
         "title": "Female Breast",
-        "description": "Treatments to correct enlarged female breasts and restore chest shape."
+        "description": "Expert breast augmentation, lift, and reduction procedures designed to enhance shape, restore firmness, and achieve natural looking results."
       },
       "abdomen": {
         "title": "Abdomen",
@@ -262,7 +262,7 @@
         "description": "Removes damaged layers to reveal fresher, brighter, healthier skin."
       },
       "botox": {
-        "title": "Botox for Wrinkles",
+        "title": "Botulinum for Wrinkles",
         "description": "Smooths fine lines and wrinkles for youthful, natural facial appearance."
       },
       "threads": {
@@ -293,9 +293,9 @@
         "title": "Tummy Tuck",
         "description": "Tightens abdominal muscles and removes excess skin for flatter stomach."
       },
-      "gynecomastia": {
-        "title": "Gynecomastia",
-        "description": "Corrects enlarged male breasts for a firm, masculine chest."
+      "femaleBreast": {
+        "title": "Female Breast",
+        "description": "Expert breast augmentation, lift, and reduction procedures designed to enhance shape, restore firmness, and achieve natural looking results."
       },
       "rhinoplasty": {
         "title": "Rhinoplasty",
@@ -304,6 +304,10 @@
       "otoplasty": {
         "title": "Otoplasty",
         "description": "Corrects ear shape or protrusion for natural, balanced appearance."
+      },
+      "gynecomastia": {
+        "title": "Gynecomastia",
+        "description": "Male breast reduction surgery to restore masculine chest contours and confidence."
       }
     },
     "laserTreatments": {
@@ -325,8 +329,8 @@
         "title": "HIFU",
         "description": "Non-invasive ultrasound treatment to tighten skin and improve facial contours."
       },
-      "hydrafacial": {
-        "title": "Hydrafacial",
+      "medifacial": {
+        "title": "Medifacial",
         "description": "Deep cleansing facial that hydrates, exfoliates, and restores radiant glow."
       }
     }
@@ -414,7 +418,7 @@
     "appointments2": "Cancellations should be made at least 24 hours before the scheduled appointment",
     "appointments3": "Repeated no-shows may result in a booking deposit requirement for future appointments",
     "paymentTitle": "Payment Terms",
-    "paymentContent": "Payment is due at the time of service unless otherwise arranged. We accept various payment methods including cash, credit/debit cards, and select digital payment platforms. Detailed cost estimates will be provided before any procedure.",
+    "paymentContent": "Payment is due at the time of service unless otherwise arranged. We accept various payment methods including cash and select digital payment platforms. Detailed cost estimates will be provided before any procedure.",
     "intellectualPropertyTitle": "Intellectual Property",
     "intellectualPropertyContent": "All content on this website, including text, graphics, logos, images, and software, is the property of Roop Clinique and is protected by intellectual property laws. You may not reproduce, distribute, or use any content without our express written permission.",
     "liabilityTitle": "Limitation of Liability",

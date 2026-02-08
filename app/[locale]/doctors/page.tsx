@@ -325,19 +325,26 @@ export default function DoctorsPage() {
                 </h2>
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full">
                   {[
-                    t("drRaunak.association1"),
-                    t("drRaunak.association2"),
-                    t("drRaunak.association3"),
-                    t("drRaunak.association4"),
-                    t("drRaunak.association5"),
-                    t("drRaunak.association6"),
+                    { name: t("drRaunak.association1"), logo: "/Logo/apsi.png" },
+                    { name: t("drRaunak.association2"), logo: "/Logo/Iaaps.png" },
+                    { name: t("drRaunak.association3"), logo: "/Logo/asi-logo-25.png" },
+                    { name: t("drRaunak.association4"), logo: "/Logo/IMA.jpeg" },
+                    { name: t("drRaunak.association5"), logo: "/Logo/issh.png" },
+                    { name: t("drRaunak.association6"), logo: "/Logo/APMPCG.png" },
                   ].map((association, index) => (
                     <div
                       key={index}
                       className="bg-white rounded-[12px] p-4 shadow-sm border border-[#e0e0e0] flex items-center gap-3"
                     >
-                      <div className="w-3 h-3 bg-[#0074b7] rounded-full flex-shrink-0"></div>
-                      <p className="text-[16px] md:text-[18px] text-[#0c1119]">{association}</p>
+                      <div className="relative w-[50px] h-[50px] flex-shrink-0">
+                        <Image
+                          src={association.logo}
+                          alt={association.name}
+                          fill
+                          className="object-contain"
+                        />
+                      </div>
+                      <p className="text-[16px] md:text-[18px] text-[#0c1119]">{association.name}</p>
                     </div>
                   ))}
                 </div>
@@ -673,33 +680,6 @@ export default function DoctorsPage() {
                     <li>{t("drKavisha.course3")}</li>
                     <li>{t("drKavisha.course4")}</li>
                   </ul>
-                </div>
-              </div>
-            </section>
-
-            {/* Member Associations Section */}
-            <section className="w-full max-w-[1600px] px-3 mx-auto py-16">
-              <div className="flex flex-col gap-8 items-center">
-                <h2 className="font-['Playfair_Display'] text-[36px] md:text-[44px] leading-normal text-center text-[#0c1119]">
-                  Professional Affiliations
-                </h2>
-                <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 w-full">
-                  {[
-                    "Association of Plastic Surgeons of India (APSI)",
-                    "Indian Association of Aesthetic Plastic Surgeons (IAAPS)",
-                    "The Association of Surgeons of India (ASI)",
-                    "Indian Medical Association (IMA)",
-                    "Indian Society for Surgery of the Hand (ISSH)",
-                    "Association of Plastic Surgeons of MP & Chattisgarh (APMPCG)",
-                  ].map((association, index) => (
-                    <div
-                      key={index}
-                      className="bg-white rounded-[12px] p-4 shadow-sm border border-[#e0e0e0] flex items-center gap-3"
-                    >
-                      <div className="w-3 h-3 bg-[#0074b7] rounded-full flex-shrink-0"></div>
-                      <p className="text-[16px] md:text-[18px] text-[#0c1119]">{association}</p>
-                    </div>
-                  ))}
                 </div>
               </div>
             </section>

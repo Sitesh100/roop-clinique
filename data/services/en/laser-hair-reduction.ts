@@ -28,8 +28,8 @@ const laserHairReduction: PageData = {
     title: 'Hair Reduction?',
     bulletPoints: [
       '<strong>Laser hair reduction</strong> is a medical procedure that uses a concentrated beam of light (laser) to remove unwanted hair from different areas of the body. At Roop Clinique, we use advanced FDA-approved laser technology that beams highly concentrated light into hair follicles. The pigment (melanin) in the follicles absorbs the light, which is converted to heat, damaging the hair follicle and stopping future hair growth. This results in long-lasting hair reduction that is far more effective than traditional methods like shaving, waxing, or threading.',
-      '<strong>How It Works:</strong> The laser targets the melanin in the hair shaft and follicle. When the light energy is absorbed, it heats up and damages the follicle, preventing or significantly reducing future hair growth. Because hair grows in cycles, multiple sessions are required to treat hair in different growth phases. Most patients achieve permanent hair reduction after an average of 6-8 sessions, with some requiring maintenance sessions annually.',
-      '<strong>Laser Hair Reduction vs. Electrolysis:</strong> While electrolysis uses an electric current through a probe inserted into each hair follicle (making it more permanent but extremely time-consuming and expensive), laser hair reduction treats multiple hairs simultaneously with each pulse. The laser can treat an area approximately the size of a quarter every second - small areas like the upper lip take less than a minute, while larger areas like back or legs may take up to an hour. Laser works best on contrasting skin and hair colors (light skin, dark hair) but modern lasers can now treat most skin types safely.',
+      '<strong>How It Works:</strong> The laser targets the melanin in the hair shaft and follicle. When the light energy is absorbed, it heats up and damages the follicle, preventing or significantly reducing future hair growth. Because hair grows in cycles, multiple sessions are required to treat hair in different growth phases. Most patients achieve definitive hair reduction after an average of 6-8 sessions, with some requiring maintenance sessions annually.',
+      '<strong>Laser Hair Reduction vs. Electrolysis:</strong> While electrolysis uses an electric current through a probe inserted into each hair follicle (making it more definitive but extremely time-consuming and expensive), laser hair reduction treats multiple hairs simultaneously with each pulse. The laser can treat an area approximately the size of a quarter every second - small areas like the upper lip take less than a minute, while larger areas like back or legs may take up to an hour. Laser works best on contrasting skin and hair colors (light skin, dark hair) but modern lasers can now treat most skin types safely.',
       '<strong>Treatable Areas:</strong> Face (upper lip, chin, sideburns, cheeks), underarms, arms, legs, bikini line, back, chest, abdomen, neck, and shoulders. However, laser cannot be performed on eyelids, surrounding eye areas, or tattooed skin.',
     ],
   },
@@ -38,7 +38,7 @@ const laserHairReduction: PageData = {
     coloredHeading: 'Benefits &',
     heading: 'Treatment Preparation',
     description:
-      '<strong>Benefits of Laser Hair Reduction:</strong> 1) <strong>Precision</strong> - Lasers selectively target dark, coarse hairs while leaving surrounding skin undamaged. 2) <strong>Speed</strong> - Each laser pulse takes a fraction of a second and treats many hairs simultaneously. 3) <strong>Predictability</strong> - Most patients experience permanent hair reduction after 6-8 sessions. 4) <strong>Long-term Cost Savings</strong> - Eliminates ongoing expenses of waxing, threading, razors, and creams. 5) <strong>No Ingrown Hairs</strong> - Unlike shaving or waxing, laser treatment prevents ingrown hairs. 6) <strong>Minimal Discomfort</strong> - Modern lasers have cooling mechanisms, and most patients describe the sensation as a warm pinprick - less painful than waxing.',
+      '<strong>Benefits of Laser Hair Reduction:</strong> 1) <strong>Precision</strong> - Lasers selectively target dark, coarse hairs while leaving surrounding skin undamaged. 2) <strong>Speed</strong> - Each laser pulse takes a fraction of a second and treats many hairs simultaneously. 3) <strong>Predictability</strong> - Most patients experience definitive hair reduction after 6-8 sessions. 4) <strong>Long-term Cost Savings</strong> - Eliminates ongoing expenses of waxing, threading, razors, and creams. 5) <strong>No Ingrown Hairs</strong> - Unlike shaving or waxing, laser treatment prevents ingrown hairs. 6) <strong>Minimal Discomfort</strong> - Modern lasers have cooling mechanisms, and most patients describe the sensation as a warm pinprick - less painful than waxing.',
     features: [
       '<strong>Pre-Treatment Preparation:</strong> Stop plucking, waxing, and electrolysis for 6 weeks before treatment - the laser needs to target hair roots which are temporarily removed by these methods. Avoid sun exposure for 6 weeks before and after treatment as tanned skin makes the procedure less effective and increases complication risk. Avoid blood-thinning medications (consult your doctor). Shave or trim the treatment area the day before your procedure - if hair is too long, the procedure won\'t work effectively and may cause burns.',
       '<strong>During the Procedure:</strong> The treatment area is trimmed to a few millimeters. A topical numbing cream may be applied 20-30 minutes before to help with any discomfort. The laser is adjusted according to your hair color, thickness, location, and skin color. You\'ll wear protective eyewear. A cold gel or cooling device protects the outer skin layers. The technician delivers laser pulses and monitors for optimal settings and any reactions.',
@@ -59,7 +59,7 @@ const laserHairReduction: PageData = {
         title: 'Treatment Sessions & Expected Results',
         description: [
           '<strong>Number of Sessions:</strong> Most patients require 6-8 sessions spaced 4-6 weeks apart for optimal results. This is because hair grows in cycles (anagen, catagen, telogen) and the laser is most effective during the active growth phase (anagen). Multiple sessions ensure all hair follicles are treated during their growth phase. Some patients may need maintenance sessions every 6-12 months.',
-          '<strong>Results Timeline:</strong> Over the weeks following each session, treated hair will fall out naturally. Most patients notice significant hair reduction after 3-4 sessions. After completing all sessions, 70-90% permanent hair reduction is typically achieved. Results vary based on hair color, skin type, hormonal factors, and treatment area. Darker, coarser hair responds best to treatment.',
+          '<strong>Results Timeline:</strong> Over the weeks following each session, treated hair will fall out naturally. Most patients notice significant hair reduction after 3-4 sessions. After completing all sessions, 70-90% definitive hair reduction is typically achieved. Results vary based on hair color, skin type, hormonal factors, and treatment area. Darker, coarser hair responds best to treatment.',
         ],
       },
       {
@@ -73,7 +73,7 @@ const laserHairReduction: PageData = {
         title: 'Safety & Potential Side Effects',
         description: [
           '<strong>Common Side Effects (Temporary):</strong> Redness and swelling at the treatment site (resolves within hours to days), mild discomfort or warmth sensation, temporary skin darkening or lightening (rare, usually resolves). These are normal and typically resolve quickly with proper aftercare.',
-          '<strong>Rare Complications:</strong> Blistering (more common in darker skin tones), scarring (rare), permanent skin color changes (rare), paradoxical hypertrichosis (increased hair growth - very rare). At Roop Clinique, our trained professionals use appropriate settings for your skin type, minimizing these risks. Never get laser hair reduction from unlicensed technicians or unqualified clinics.',
+          '<strong>Rare Complications:</strong> Blistering (more common in darker skin tones), scarring (rare), definitive skin color changes (rare), paradoxical hypertrichosis (increased hair growth - very rare). At Roop Clinique, our trained professionals use appropriate settings for your skin type, minimizing these risks. Never get laser hair reduction from unlicensed technicians or unqualified clinics.',
         ],
       },
     ],
@@ -81,9 +81,9 @@ const laserHairReduction: PageData = {
 
   faqs: [
     {
-      question: 'How permanent is laser hair reduction?',
+      question: 'How definitive is laser hair reduction?',
       answer:
-        'Laser hair reduction provides long-lasting results, with most patients achieving 70-90% permanent hair reduction after completing all sessions. Results can last months to several years. Some patients may need annual maintenance sessions due to hormonal changes or new hair growth. Individual results vary based on hair color, skin type, and hormonal factors.',
+        'Laser hair reduction provides long-lasting results, with most patients achieving 70-90% definitive hair reduction after completing all sessions. Results can last months to several years. Some patients may need annual maintenance sessions due to hormonal changes or new hair growth. Individual results vary based on hair color, skin type, and hormonal factors.',
     },
     {
       question: 'Is laser hair reduction painful?',

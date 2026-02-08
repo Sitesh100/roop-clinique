@@ -28,7 +28,7 @@ const facialRejuvenation: PageData = {
     title: 'Rejuvenation Procedures',
     bulletPoints: [
       'At Roop Plastic Surgery Clinique, we offer comprehensive <strong>facial rejuvenation</strong> solutions addressing signs of aging including wrinkles, fine lines, sagging skin, volume loss, and facial asymmetry. Our approach combines both non-surgical and surgical options to help you achieve a refreshed, youthful appearance while maintaining natural facial expressions and features. We understand that aging affects each face differently, and our treatments are customized to your unique anatomy, skin quality, and aesthetic goals. Whether you seek subtle enhancement or dramatic transformation, our expert team provides safe, effective, and long-lasting results.',
-      '<strong>Non-Surgical Facial Rejuvenation</strong> offers minimal downtime solutions. <strong>Laser Treatments & MNRF (Micro-Needling Radio Frequency)</strong> combine micro-needling with radiofrequency energy to stimulate collagen production, tighten skin, reduce wrinkles and fine lines, improve skin texture and tone, minimize pores and acne scars, with minimal downtime. Typical treatment involves 3-4 sessions spaced 4-6 weeks apart, each lasting 30-45 minutes. Results improve progressively over 3-6 months. <strong>Botox (Botulinum Toxin)</strong> temporarily relaxes facial muscles that cause dynamic wrinkles, treating forehead lines, frown lines (between eyebrows), crow\'s feet (around eyes), bunny lines (on nose), and achieving a lifted brow appearance. Treatment takes 10-15 minutes, results appear in 3-7 days and last 3-4 months.',
+      '<strong>Non-Surgical Facial Rejuvenation</strong> offers minimal downtime solutions. <strong>Laser Treatments & MNRF (Micro-Needling Radio Frequency)</strong> combine micro-needling with radiofrequency energy to stimulate collagen production, tighten skin, reduce wrinkles and fine lines, improve skin texture and tone, minimize pores and acne scars, with minimal downtime. Typical treatment involves 3-4 sessions spaced 4-6 weeks apart, each lasting 30-45 minutes. Results improve progressively over 3-6 months. <strong>Botulinum Toxin Therapy</strong> temporarily relaxes facial muscles that cause dynamic wrinkles, treating forehead lines, frown lines (between eyebrows), crow\'s feet (around eyes), bunny lines (on nose), and achieving a lifted brow appearance. Treatment takes 10-15 minutes, results appear in 3-7 days and last 3-4 months.',
       '<strong>Dermal Fillers</strong> restore lost facial volume and smooth wrinkles using hyaluronic acid-based fillers. Common treatment areas include nasolabial folds (smile lines), marionette lines (corners of mouth), lips (volume and definition), cheeks (volume restoration and lift), under-eye hollows (tear troughs), jawline contouring, and chin augmentation. Results are immediate and last 6-18 months depending on filler type and area treated. <strong>Thread Lift</strong> provides non-surgical facelift using dissolvable PDO/PLLA threads inserted under skin to lift sagging tissue, stimulate collagen production, and create natural-looking lift. Ideal for mild to moderate sagging in cheeks, jowls, neck, and brows. Procedure takes 45-60 minutes under local anesthesia with results lasting 12-18 months.',
     ],
   },
@@ -56,15 +56,15 @@ const facialRejuvenation: PageData = {
       {
         title: 'Choosing the Right Treatment Approach',
         description: [
-          'The choice between non-surgical and surgical facial rejuvenation depends on several factors including extent of aging changes, skin quality and elasticity, patient goals and expectations, downtime tolerance, and budget. <strong>Non-surgical treatments are ideal for:</strong> Early signs of aging (fine lines, mild volume loss), patients seeking gradual, subtle improvements, those wanting no or minimal downtime, patients not ready for surgery, and maintenance of surgical results. Multiple non-surgical treatments can be combined for enhanced results (e.g., Botox + Fillers + MNRF).',
+          'The choice between non-surgical and surgical facial rejuvenation depends on several factors including extent of aging changes, skin quality and elasticity, patient goals and expectations, downtime tolerance, and budget. <strong>Non-surgical treatments are ideal for:</strong> Early signs of aging (fine lines, mild volume loss), patients seeking gradual, subtle improvements, those wanting no or minimal downtime, patients not ready for surgery, and maintenance of surgical results. Multiple non-surgical treatments can be combined for enhanced results (e.g., Botulinum Toxin Therapy + Fillers + MNRF).',
           '<strong>Surgical treatments are recommended for:</strong> Significant skin laxity and sagging, deep wrinkles and folds that don\'t respond to non-surgical treatments, substantial volume loss and tissue descent, patients seeking dramatic, long-lasting results, and those willing to undergo recovery period. Many patients benefit from combination approach - surgical procedures for structural correction followed by non-surgical treatments for refinement and maintenance. During consultation, your surgeon will assess your facial aging patterns and recommend the most appropriate treatment plan, whether non-surgical, surgical, or combination approach.',
         ],
       },
       {
         title: 'Recovery, Results & Maintenance',
         description: [
-          '<strong>Non-Surgical Recovery:</strong> Botox requires no downtime, avoid lying down for 4 hours, results in 3-7 days. Fillers may have mild swelling for 1-3 days, results immediate. MNRF/Laser involves 3-5 days of redness and mild swelling. Thread Lift requires 3-5 days of swelling and bruising, avoid strenuous activity for 1 week. <strong>Surgical Recovery:</strong> Blepharoplasty requires 1-2 weeks off work, avoid strenuous activity for 3-4 weeks. Facelift/Neck Lift need 2-3 weeks off work, drain removal at 1-3 days, suture removal at 7-10 days, avoid strenuous activity for 4-6 weeks.',
-          '<strong>Maintaining Results:</strong> Non-surgical treatments require regular maintenance - Botox every 3-4 months, Fillers every 6-18 months, MNRF/Laser annually or as needed, Thread Lift every 12-18 months. Surgical results last 10-15 years but proper skincare, sun protection, healthy lifestyle, and periodic non-surgical touch-ups help maintain and extend results. Combination of good skincare routine, sun protection (daily SPF), healthy diet and hydration, no smoking, and strategic use of non-surgical treatments preserves both surgical and non-surgical results. Most patients report significant improvement in self-confidence, satisfaction with appearance, and looking more refreshed and youthful while maintaining natural facial expressions.',
+          '<strong>Non-Surgical Recovery:</strong> Botulinum Toxin Therapy requires no downtime, avoid lying down for 4 hours, results in 3-7 days. Fillers may have mild swelling for 1-3 days, results immediate. MNRF/Laser involves 3-5 days of redness and mild swelling. Thread Lift requires 3-5 days of swelling and bruising, avoid strenuous activity for 1 week. <strong>Surgical Recovery:</strong> Blepharoplasty requires 1-2 weeks off work, avoid strenuous activity for 3-4 weeks. Facelift/Neck Lift need 2-3 weeks off work, drain removal at 1-3 days, suture removal at 7-10 days, avoid strenuous activity for 4-6 weeks.',
+          '<strong>Maintaining Results:</strong> Non-surgical treatments require regular maintenance - Botulinum Toxin Therapy every 3-4 months, Fillers every 6-18 months, MNRF/Laser annually or as needed, Thread Lift every 12-18 months. Surgical results last 10-15 years but proper skincare, sun protection, healthy lifestyle, and periodic non-surgical touch-ups help maintain and extend results. Combination of good skincare routine, sun protection (daily SPF), healthy diet and hydration, no smoking, and strategic use of non-surgical treatments preserves both surgical and non-surgical results. Most patients report significant improvement in self-confidence, satisfaction with appearance, and looking more refreshed and youthful while maintaining natural facial expressions.',
         ],
       },
     ],
@@ -72,19 +72,19 @@ const facialRejuvenation: PageData = {
 
   faqs: [
     {
-      question: 'What is the difference between Botox and fillers?',
+      question: 'What is the difference between Botulinum Toxin Therapy and fillers?',
       answer:
-        'Botox relaxes muscles that cause dynamic wrinkles (expression lines like forehead lines and crow\'s feet). Fillers add volume to smooth static wrinkles and restore lost facial volume (like smile lines, lips, cheeks). Both are often used together for comprehensive facial rejuvenation - Botox for upper face, fillers for mid and lower face.',
+        'Botulinum Toxin Therapy relaxes muscles that cause dynamic wrinkles (expression lines like forehead lines and crow\'s feet). Fillers add volume to smooth static wrinkles and restore lost facial volume (like smile lines, lips, cheeks). Both are often used together for comprehensive facial rejuvenation - Botulinum Toxin Therapy for upper face, fillers for mid and lower face.',
     },
     {
       question: 'Am I too young or too old for facial rejuvenation?',
       answer:
-        'There\'s no specific age limit. Non-surgical treatments like Botox can start in late 20s-early 30s for prevention. Most facelift patients are 40-70 years old, but candidacy depends on skin quality and health, not just age. During consultation, we assess your individual aging patterns and recommend age-appropriate treatments.',
+        'There\'s no specific age limit. Non-surgical treatments like Botulinum Toxin Therapy can start in late 20s-early 30s for prevention. Most facelift patients are 40-70 years old, but candidacy depends on skin quality and health, not just age. During consultation, we assess your individual aging patterns and recommend age-appropriate treatments.',
     },
     {
       question: 'How long do facial rejuvenation results last?',
       answer:
-        'Non-surgical: Botox 3-4 months, Fillers 6-18 months, MNRF/Laser 6-12 months, Thread Lift 12-18 months. Surgical: Blepharoplasty 10-15 years, Facelift 10-15 years, Neck Lift 10-15 years. Regular maintenance with non-surgical treatments and good skincare can extend surgical results.',
+        'Non-surgical: Botulinum Toxin Therapy 3-4 months, Fillers 6-18 months, MNRF/Laser 6-12 months, Thread Lift 12-18 months. Surgical: Blepharoplasty 10-15 years, Facelift 10-15 years, Neck Lift 10-15 years. Regular maintenance with non-surgical treatments and good skincare can extend surgical results.',
     },
     {
       question: 'Will I look natural or obviously "done"?',
@@ -94,7 +94,7 @@ const facialRejuvenation: PageData = {
     {
       question: 'Can I combine non-surgical and surgical treatments?',
       answer:
-        'Yes, combination approach often provides best results. For example, facelift for structural lifting combined with fillers for volume restoration, or blepharoplasty with Botox for brow lift. Non-surgical treatments can be done before surgery for optimization or after surgery for refinement and maintenance. Your treatment plan will be customized based on your specific needs.',
+        'Yes, combination approach often provides best results. For example, facelift for structural lifting combined with fillers for volume restoration, or blepharoplasty with Botulinum Toxin Therapy for brow lift. Non-surgical treatments can be done before surgery for optimization or after surgery for refinement and maintenance. Your treatment plan will be customized based on your specific needs.',
     },
   ],
 

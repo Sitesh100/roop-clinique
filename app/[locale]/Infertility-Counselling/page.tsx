@@ -294,7 +294,7 @@ export default function InfertilityCounsellingPage() {
                 </div>
                 <div className="flex items-center justify-center">
                   <div className="w-full h-[415px] rounded-[18px] flex items-center justify-center">
-                    <Image src="/infertility/OPU.png" alt="OPU Procedure Diagram" width={500} height={600} objectFit="cover" />
+                    <Image src="/infertility/OPU.jpg" alt="OPU Procedure Diagram" width={500} height={600} objectFit="cover" />
                   </div>
                 </div>
               </div>
@@ -328,7 +328,7 @@ export default function InfertilityCounsellingPage() {
                 </div>
                 <div className="flex items-center justify-center">
                   <div className="w-full h-[400px] rounded-[18px] flex items-center justify-center overflow-hidden">
-                    <Image src="/infertility/Embryo.png" alt="Embryo Transfer Diagram" width={600} height={800} objectFit="cover" />
+                    <Image src="/infertility/Embryo.jpg" alt="Embryo Transfer Diagram" width={350} height={500} objectFit="contain" />
                   </div>
                 </div>
               </div>

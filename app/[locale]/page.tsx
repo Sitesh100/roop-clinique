@@ -406,6 +406,9 @@ export default function Home() {
               <Link href={`/${locale}/services/hair-transplant`} className="hover:scale-105 transition-transform">
                 <ServiceCard title="Hair Transplant" description="Natural hair restoration" icon={{ src: "/icons/hairtransplant.svg", alt: "Hair Transplant" }} variant="centered" />
               </Link>
+              <Link href={`/${locale}/services/gynecomastiatreatment`} className="hover:scale-105 transition-transform">
+                <ServiceCard title="Gynecomastia" description="Male breast reduction" icon={{ src: "/icons/gyno.png", alt: "Gynecomastia" }} variant="centered" />
+              </Link>
             </div>
           </div>
 

@@ -49,6 +49,7 @@ interface ServicePageUIProps {
   faqs: FaqItem[];
   beforeAfterImage?: string;
   secondImage?: string;
+  contentSource?: string; 
 }
 
 const ServicePageUI: React.FC<ServicePageUIProps> = ({
@@ -61,6 +62,7 @@ const ServicePageUI: React.FC<ServicePageUIProps> = ({
   faqs,
   beforeAfterImage,
   secondImage,
+  contentSource, // New prop
 }) => {
   const [openIndex, setOpenIndex] = useState<number | null>(null);
   const [showModal, setShowModal] = useState(false);
@@ -343,6 +345,15 @@ const ServicePageUI: React.FC<ServicePageUIProps> = ({
                 </motion.div>
               </div>
             </section>
+
+            {/* Content Source Section - NEW */}
+            {contentSource && (
+              <div className="bg-gray-50 rounded-lg border border-gray-200 py-4 px-6">
+                <p className="text-xs sm:text-sm text-gray-600 text-center">
+                  <span className="font-medium text-gray-700">Source:</span> {contentSource}
+                </p>
+              </div>
+            )}
 
             {/* Floating Action Button */}
             <div className="fixed bottom-2 right-6 flex flex-col items-center gap-4 z-20 md:mb-5 md:mr-10">

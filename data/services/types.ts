@@ -40,4 +40,5 @@ export interface PageData {
   faqs: Faq[];
   beforeAfterImage?: string;
   secondImage?: string;
+  contentSource?: string; 
 }

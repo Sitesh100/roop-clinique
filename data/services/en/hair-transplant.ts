@@ -123,6 +123,7 @@ const hairTransplant: PageData = {
 
   beforeAfterImage: '/service/Hair Transplantation  What to Expect.jpg',
   secondImage: '/service/hair1.webp',
+  contentSource: 'Indian Association Of Aesthetic Plastic Surgeons', 
 };
 
 export default hairTransplant;

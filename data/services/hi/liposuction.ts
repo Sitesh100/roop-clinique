@@ -101,6 +101,7 @@ const liposuction: PageData = {
 
     beforeAfterImage: '/service/lipo1.webp',
   secondImage: '/service/lipo2.webp',
+  contentSource: 'Indian Association Of Aesthetic Plastic Surgeons', 
 };
 
 export default liposuction;

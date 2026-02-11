@@ -101,6 +101,7 @@ const abdominoplasty: PageData = {
 
   beforeAfterImage: '/service/abdominal.webp',
   secondImage: '/service/abdominal1.webp',
+  contentSource: 'Indian Association Of Aesthetic Plastic Surgeons', 
 };
 
 export default abdominoplasty;

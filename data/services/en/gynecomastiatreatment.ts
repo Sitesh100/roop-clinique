@@ -132,6 +132,7 @@ const gynecomastiatreatment: PageData = {
 
   beforeAfterImage: '/service/male-breast.webp',
   secondImage: '/service/male-breast1.webp',
+  contentSource: 'Indian Association Of Aesthetic Plastic Surgeons', 
 };
 
 export default gynecomastiatreatment;

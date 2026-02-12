@@ -388,6 +388,9 @@ export default function Home() {
               <Link href={`/${locale}/services/rhinoplasty`} className="hover:scale-105 transition-transform">
                 <ServiceCard title="Rhinoplasty" description="Nose reshaping surgery" icon={{ src: "/icons/rhinoplasty.svg", alt: "Rhinoplasty" }} variant="centered" />
               </Link>
+               <Link href={`/${locale}/services/gynecomastiatreatment`} className="hover:scale-105 transition-transform">
+                <ServiceCard title="Gynecomastia" description="Male breast reduction" icon={{ src: "/icons/gyno.png", alt: "Gynecomastia" }} variant="centered" />
+              </Link>
               <Link href={`/${locale}/services/otoplasty`} className="hover:scale-105 transition-transform">
                 <ServiceCard title="Otoplasty" description="Ear reshaping procedure" icon={{ src: "/icons/otoplasty.svg", alt: "Otoplasty" }} variant="centered" />
               </Link>
@@ -406,9 +409,7 @@ export default function Home() {
               <Link href={`/${locale}/services/hair-transplant`} className="hover:scale-105 transition-transform">
                 <ServiceCard title="Hair Transplant" description="Natural hair restoration" icon={{ src: "/icons/hairtransplant.svg", alt: "Hair Transplant" }} variant="centered" />
               </Link>
-              <Link href={`/${locale}/services/gynecomastiatreatment`} className="hover:scale-105 transition-transform">
-                <ServiceCard title="Gynecomastia" description="Male breast reduction" icon={{ src: "/icons/gyno.png", alt: "Gynecomastia" }} variant="centered" />
-              </Link>
+             
             </div>
           </div>
 
@@ -416,6 +417,9 @@ export default function Home() {
           <div className="w-full">
             <h3 className="text-[24px] sm:text-[28px] md:text-[32px] font-semibold mb-4 sm:mb-6 text-[#0074B7]">Non-Surgical Treatments</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8 w-full">
+               <Link href={`/${locale}/services/miscellaneous`} className="hover:scale-105 transition-transform">
+                <ServiceCard title="Cosmetology" description="Advanced cosmetic care" icon={{ src: "/icons/cosmetology.svg", alt: "Cosmetology" }} variant="centered" />
+              </Link>
               <Link href={`/${locale}/services/miscellaneous`} className="hover:scale-105 transition-transform">
                 <ServiceCard title="Botulinum Therapy & Fillers" description="Injectable treatments" icon={{ src: "/icons/face.svg", alt: "Botulinum Toxin Therapy" }} variant="centered" />
               </Link>
@@ -432,9 +436,7 @@ export default function Home() {
               <Link href={`/${locale}/services/miscellaneous`} className="hover:scale-105 transition-transform">
                 <ServiceCard title="Chemical Peels" description="Skin rejuvenation" icon={{ src: "/icons/peels.svg", alt: "Peels" }} variant="centered" />
               </Link>
-              <Link href={`/${locale}/services/miscellaneous`} className="hover:scale-105 transition-transform">
-                <ServiceCard title="Cosmetology" description="Advanced cosmetic care" icon={{ src: "/icons/cosmetology.svg", alt: "Cosmetology" }} variant="centered" />
-              </Link>
+             
             </div>
           </div>
 

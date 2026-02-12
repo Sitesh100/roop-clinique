@@ -297,6 +297,14 @@ export default function Services() {
       },
       description: t("aestheticTreatments.skin.description"),
     },
+     {
+      title: t("surgical.gynecomastia.title"),
+      icon: {
+        src: "/icons/gyno.png",
+        alt: t("surgical.gynecomastia.title"),
+      },
+      description: t("surgical.gynecomastia.description"),
+    },
     {
       title: t("aestheticTreatments.hairLoss.title"),
       icon: {
@@ -345,14 +353,7 @@ export default function Services() {
       },
       description: t("aestheticTreatments.infertilityCounselling.description"),
     },
-     {
-      title: t("surgical.gynecomastia.title"),
-      icon: {
-        src: "/icons/gyno.png",
-        alt: t("surgical.gynecomastia.title"),
-      },
-      description: t("surgical.gynecomastia.description"),
-    },
+    
   ];
 
   const nonSurgicalServices: {
@@ -427,6 +428,14 @@ export default function Services() {
       },
       description: t("surgical.liposuction.description"),
     },
+        {
+      title: t("surgical.gynecomastia.title"),
+      icon: {
+        src: "/icons/gyno.png",
+        alt: t("surgical.gynecomastia.title"),
+      },
+      description: t("surgical.gynecomastia.description"),
+    },
     {
       title: t("surgical.fatGrafting.title"),
       icon: {
@@ -475,14 +484,7 @@ export default function Services() {
       },
       description: t("surgical.hairTransplant.description"),
     },
-    {
-      title: t("surgical.gynecomastia.title"),
-      icon: {
-        src: "/icons/gyno.png",
-        alt: t("surgical.gynecomastia.title"),
-      },
-      description: t("surgical.gynecomastia.description"),
-    },
+
   ];
 
   const laserServices: {
